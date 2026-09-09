@@ -13,7 +13,7 @@ _Respuesta: Es tal cosa, test iliana
 
 **2. Explica con un ejemplo la diferencia entre "programar" y "hacer ingeniería de software".**
 
-_Respuesta:_
+_Respuesta:_ aca completan 
 
 
 **3. Menciona dos razones por las cuales la ingeniería de software es necesaria en el desarrollo de sistemas actuales.**
