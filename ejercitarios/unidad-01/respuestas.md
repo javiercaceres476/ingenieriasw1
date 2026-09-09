@@ -8,7 +8,7 @@
 
 **1. En tus propias palabras, define qué es la Ingeniería de Software.**
 
-_Respuesta:_
+_Respuesta: Es tal cosa
 
 
 **2. Explica con un ejemplo la diferencia entre "programar" y "hacer ingeniería de software".**
