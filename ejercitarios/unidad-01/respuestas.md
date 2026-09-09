@@ -8,7 +8,7 @@
 
 **1. En tus propias palabras, define qué es la Ingeniería de Software.**
 
-_Respuesta: Es tal cosa
+_Respuesta: Es tal cosa, test iliana
 
 
 **2. Explica con un ejemplo la diferencia entre "programar" y "hacer ingeniería de software".**
