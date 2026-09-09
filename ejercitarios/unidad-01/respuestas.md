@@ -8,18 +8,18 @@
 
 **1. En tus propias palabras, define qué es la Ingeniería de Software.**
 
-_Respuesta: Es tal cosa, test iliana
+_Respuesta: La Ingeniería de Software es la disciplina que se encarga de planificar, diseñar, desarrollar, probar y mantener programas de manera organizada, buscando que sean de buena calidad, seguros y que cumplan con las necesidades de los usuarios.
 
 
 **2. Explica con un ejemplo la diferencia entre "programar" y "hacer ingeniería de software".**
 
-_Respuesta:_ aca completan 
-
+_Respuesta: Programar consiste principalmente en escribir código para solucionar un problema. En cambio, hacer ingeniería de software implica realizar todo el proceso, como analizar las necesidades del usuario, planificar el proyecto, diseñar el sistema, programarlo, probarlo y posteriormente mantenerlo. Por ejemplo, una persona puede programar una aplicación para una tienda, pero hacer ingeniería de software significa además analizar qué necesita la tienda, diseñar cómo funcionará la aplicación, probarla y corregir errores.
 
 **3. Menciona dos razones por las cuales la ingeniería de software es necesaria en el desarrollo de sistemas actuales.**
 
-_Respuesta:_
-
+_Respuesta: 
+*Permite desarrollar sistemas de mejor calidad y con menos errores.
+*Ayuda a organizar y controlar proyectos de software que pueden ser grandes y complejos.
 
 ---
 
@@ -27,12 +27,19 @@ _Respuesta:_
 
 **4. Enumera los elementos que conforman un sistema basado en computadora, además del software.**
 
-_Respuesta:_
+_Respuesta: Además del software, un sistema basado en computadora está conformado por:
+
+*Hardware: computadoras, servidores, dispositivos y otros componentes físicos.
+*Personas: usuarios y personas encargadas de desarrollar o administrar el sistema.
+*Datos: información que el sistema almacena y procesa.
+*Procedimientos: reglas y procesos que indican cómo debe utilizarse el sistema.
+*Redes: medios que permiten la comunicación entre los diferentes dispositivos.
 
 
 **5. Describe brevemente la diferencia entre una visión sistémica y una visión aislada del software en el diseño de sistemas.**
 
-_Respuesta:_
+_Respuesta: La visión sistémica considera al software como parte de un sistema completo, teniendo en cuenta el hardware, los usuarios, los datos, las redes y los procesos.
+La visión aislada se enfoca solamente en el software y en su funcionamiento, sin considerar cómo se relaciona con los demás elementos del sistema.
 
 
 **6. Elige una herramienta de inteligencia artificial aplicada al desarrollo de software (por ejemplo, un asistente de código o de testing) e indica:**
@@ -40,7 +47,11 @@ _Respuesta:_
 - Un beneficio concreto que ofrece.
 - Un riesgo o desafío que introduce su uso.
 
-_Respuesta:_
+_Respuesta: Herramienta elegida: GitHub Copilot
+
+*Qué tarea del ingeniero de software apoya o transforma: Ayuda a escribir código, sugerir funciones y completar partes de un programa, por lo que facilita la tarea de programación.
+*Un beneficio concreto que ofrece: Permite ahorrar tiempo al generar rápidamente código y sugerencias que el desarrollador puede revisar y utilizar.
+*Un riesgo o desafío que introduce su uso: El código generado puede contener errores o no ser la mejor solución, por lo que el ingeniero debe revisarlo y probarlo antes de utilizarlo.
 
 
 ---
