@@ -104,30 +104,24 @@ Como profesional uno debe priorizar la seguridad de los usuarios y evitar causar
 ## Tema 5 · El ciclo del software
 
 **11. Ordena y nombra las cinco fases genéricas del ciclo de vida del software vistas en clase.**
-
-_Respuesta:_
-
-
+1. Analisis.
+2. Diseño.
+3. Implementacion.
+4. Pruebas.
+5. Mantenimiento.
 **12. ¿Por qué se afirma que el mantenimiento suele ser la fase más costosa del ciclo de vida del software? Da un ejemplo hipotético.**
-
-_Respuesta:_
-
-
----
-
+Porque despues de entregar el software sigue siendo necesario corregir errores, agregar mejoras y adaptarlo a nuevos cambios.
+Ejemplo: Una aplicacion bancaria debe actualizarse constantemente para mejorar seguridad y agregar nuevas funciones.
 ## Tema 6 · Relación con otras áreas de la ciencia de la computación
 
 **Completen el siguiente cuadro indicando cómo cada área apoya a la ingeniería de software.**
 
 | Área | ¿Cómo apoya a la Ingeniería de Software? |
 |---|---|
-| Estructuras de datos y algoritmos | |
-| Bases de datos | |
-| Sistemas operativos | |
-| Redes | |
-
----
-
+| Estructuras de datos y algoritmos | | Permiten diseñar soluciones eficientes.|
+| Bases de datos | | Ayudan a modelar y administrar la informacion del sistema.|
+| Sistemas operativos | | Permiten comprender el entorno donde funciona el software.|
+| Redes | | Permiten crear sistemas distribuidos y comunicacion entre equipos.|
 ## Tema 7 · Relación con otras disciplinas
 
 **13. Elige dos de las siguientes disciplinas — Administración, Psicología, Economía, Derecho, Comunicación — y explica con un ejemplo concreto cómo se relacionan con el trabajo diario de un ingeniero de software.**
