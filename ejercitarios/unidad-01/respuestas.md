@@ -60,7 +60,7 @@ _Respuesta: Herramienta elegida: GitHub Copilot
 
 **7. En tu opinión, ¿por qué la "crisis del software" de 1968 marcó un punto de inflexión para la disciplina?**
 
-_Respuesta:_ Para mí, la crisis del software de 1968 fue un punto de inflexión porque se dieron cuenta de que hacer programas grandes era mucho más complicado de lo que pensaban. Los proyectos tenían errores tardaban demasiado y costaban mucho. Por eso tuvieron que buscar una manera más organizada de crear software.
+En mi opinion, la crisis del software de 1968 fue un punto de inflexión porque se dieron cuenta de que hacer programas grandes era mucho más complicado de lo que pensaban. Los proyectos tenían errores tardaban demasiado y costaban mucho. Por eso tuvieron que buscar una manera más organizada de crear software.
 
 **Ejercicio de relación** (completá con la letra que corresponda a cada número):
 
