@@ -109,9 +109,11 @@ Como profesional uno debe priorizar la seguridad de los usuarios y evitar causar
 3. Implementacion.
 4. Pruebas.
 5. Mantenimiento.
+   
 **12. ¿Por qué se afirma que el mantenimiento suele ser la fase más costosa del ciclo de vida del software? Da un ejemplo hipotético.**
 Porque despues de entregar el software sigue siendo necesario corregir errores, agregar mejoras y adaptarlo a nuevos cambios.
 Ejemplo: Una aplicacion bancaria debe actualizarse constantemente para mejorar seguridad y agregar nuevas funciones.
+
 ## Tema 6 · Relación con otras áreas de la ciencia de la computación
 
 **Completen el siguiente cuadro indicando cómo cada área apoya a la ingeniería de software.**
