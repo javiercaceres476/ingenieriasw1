@@ -59,7 +59,7 @@ Herramienta elegida: GitHub Copilot
 
 **7. En tu opinión, ¿por qué la "crisis del software" de 1968 marcó un punto de inflexión para la disciplina?**
 
-En mi opinion, la crisis del software de 1968 fue un punto de inflexión porque se dieron cuenta de que hacer programas grandes era mucho más complicado de lo que pensaban. Los proyectos tenían errores tardaban demasiado y costaban mucho. Por eso tuvieron que buscar una manera más organizada de crear software.
+En mi opinión, la crisis del software de 1968 fue un punto de inflexión porque se dieron cuenta de que hacer programas grandes era mucho más complicado de lo que pensaban. Los proyectos tenían errores tardaban demasiado y costaban mucho. Por eso tuvieron que buscar una manera más organizada de crear software.
 
 **Ejercicio de relación** (completá con la letra que corresponda a cada número):
 
@@ -83,7 +83,6 @@ En mi opinion, la crisis del software de 1968 fue un punto de inflexión porque 
 
 **8. Menciona tres competencias que debe tener un ingeniero de software, además del conocimiento técnico.**
 
-_Respuesta:_
 1. Saber trabajar en equipo
 2. Saber analizar un problema y buscar una solución
 3. Responsabilidad y ética profesional
@@ -100,7 +99,7 @@ _Respuesta:_
 
 **10. Caso breve:** Un ingeniero de software descubre, cerca de la fecha de entrega, una falla de seguridad que podría exponer datos de usuarios, pero corregirla retrasaría el proyecto una semana. ¿Qué debería hacer y por qué, considerando la ética profesional?
 
-_Respuesta:_ Yo creo que debería avisar del problema y solucionar la falla aunque se retrase una semana, porque es mejor entregar el proyecto un poco más tarde pero seguro, que entregarlo a tiempo sabiendo que tiene un problema de seguridad.
+Yo creo que debería avisar del problema y solucionar la falla aunque se retrase una semana, porque es mejor entregar el proyecto un poco más tarde pero seguro, que entregarlo a tiempo sabiendo que tiene un problema de seguridad.
 Como profesional uno debe priorizar la seguridad de los usuarios y evitar causarles daño
 
 
