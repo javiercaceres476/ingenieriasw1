@@ -134,9 +134,26 @@ _Respuesta:_
 
 **13. Elige dos de las siguientes disciplinas — Administración, Psicología, Economía, Derecho, Comunicación — y explica con un ejemplo concreto cómo se relacionan con el trabajo diario de un ingeniero de software.**
 
-_Respuesta:_
+_Respuesta:_Elijo Administración y Psicología.
+
+Administración
+
+Un ingeniero de software trabaja con conceptos de administración constantemente, por ejemplo al participar en la planificación de un sprint (metodología ágil/Scrum). Aquí debe estimar tiempos, priorizar tareas según el valor de negocio, asignar recursos (quién hace qué) y hacer seguimiento del progreso frente a una fecha de entrega. Sin nociones de administración, un desarrollador podría escribir código excelente pero fallar en organizarse dentro de un proyecto real, donde hay presupuestos, plazos y coordinación de equipo.
+
+Ejemplo concreto: un ingeniero que lidera un pequeño equipo debe decidir si conviene invertir dos semanas en refactorizar código antiguo o lanzar una nueva función primero, evaluando costo-beneficio como lo haría un administrador.
+
+Psicología
+
+La psicología entra en juego en el diseño de interfaces (UX) y en el trabajo en equipo. Al construir una aplicación, el ingeniero debe pensar en cómo el usuario percibe y usa el sistema: qué botones generan confusión, qué flujo reduce la frustración, cómo mantener la atención del usuario. También aplica a la dinámica de equipo: entender por qué un compañero reacciona a la crítica de cierta manera durante una revisión de código, o cómo dar retroalimentación sin generar conflicto.
+
+Ejemplo concreto: al diseñar el proceso de registro de una app, el ingeniero aplica principios de psicología cognitiva (como minimizar la carga de memoria del usuario) para decidir si pedir todos los datos en un solo formulario largo o dividirlos en pasos cortos
 
 
 **14. Reflexión final:** de todo lo visto en clase (definición, historia, rol del ingeniero, ciclo del software, relación con otras áreas y disciplinas, e impacto de la IA), ¿qué idea te resultó más relevante y por qué?
 
 _Respuesta:_
+De todos los temas vistos, la idea que me resultó más relevante es el impacto de la Inteligencia Artificial en la ingeniería de software, porque está transformando de manera directa y acelerada la forma en que se ejerce la profesión hoy mismo, a diferencia de otros temas más históricos o conceptuales.
+
+Considero que esta idea es especialmente importante por varias razones:
+
+Primero, porque redefine el rol del ingeniero de software: ya no se trata solo de escribir código línea por línea, sino de saber usar herramientas de IA (como asistentes de programación) para generar, revisar y depurar código de forma más eficiente, lo que desplaza el valor del ingeniero hacia habilidades como el pensamiento crítico, el diseño de soluciones y la validación de lo que la IA produce
