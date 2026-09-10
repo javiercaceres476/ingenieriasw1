@@ -111,7 +111,9 @@ Como profesional uno debe priorizar la seguridad de los usuarios y evitar causar
 5. Mantenimiento.
    
 **12. ¿Por qué se afirma que el mantenimiento suele ser la fase más costosa del ciclo de vida del software? Da un ejemplo hipotético.**
+
 Porque despues de entregar el software sigue siendo necesario corregir errores, agregar mejoras y adaptarlo a nuevos cambios.
+
 Ejemplo: Una aplicacion bancaria debe actualizarse constantemente para mejorar seguridad y agregar nuevas funciones.
 
 ## Tema 6 · Relación con otras áreas de la ciencia de la computación
@@ -120,10 +122,10 @@ Ejemplo: Una aplicacion bancaria debe actualizarse constantemente para mejorar s
 
 | Área | ¿Cómo apoya a la Ingeniería de Software? |
 |---|---|
-| Estructuras de datos y algoritmos | | Permiten diseñar soluciones eficientes.|
-| Bases de datos | | Ayudan a modelar y administrar la informacion del sistema.|
-| Sistemas operativos | | Permiten comprender el entorno donde funciona el software.|
-| Redes | | Permiten crear sistemas distribuidos y comunicacion entre equipos.|
+| Estructuras de datos y algoritmos | Permiten diseñar soluciones eficientes.| 
+| Bases de datos | Ayudan a modelar y administrar la informacion del sistema. | 
+| Sistemas operativos | Permiten comprender el entorno donde funciona el software.|
+| Redes | Permiten crear sistemas distribuidos y comunicacion entre equipos.|
 ## Tema 7 · Relación con otras disciplinas
 
 **13. Elige dos de las siguientes disciplinas — Administración, Psicología, Economía, Derecho, Comunicación — y explica con un ejemplo concreto cómo se relacionan con el trabajo diario de un ingeniero de software.**
