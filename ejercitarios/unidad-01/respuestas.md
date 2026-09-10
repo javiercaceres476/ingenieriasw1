@@ -60,17 +60,17 @@ _Respuesta: Herramienta elegida: GitHub Copilot
 
 **7. En tu opinión, ¿por qué la "crisis del software" de 1968 marcó un punto de inflexión para la disciplina?**
 
-_Respuesta:_
+_Respuesta:_ Para mí, la crisis del software de 1968 fue un punto de inflexión porque se dieron cuenta de que hacer programas grandes era mucho más complicado de lo que pensaban. Los proyectos tenían errores tardaban demasiado y costaban mucho. Por eso tuvieron que buscar una manera más organizada de crear software.
 
 **Ejercicio de relación** (completá con la letra que corresponda a cada número):
 
 | Evento / Período | Descripción |
 |---|---|
-| A. Programación artesanal (1950s–60s) | ___ |
-| B. Crisis del software (1968) | ___ |
-| C. Modelo en cascada (1970s–80s) | ___ |
-| D. Métodos iterativos (1990s) | ___ |
-| E. Metodologías ágiles (2001–hoy) | ___ |
+| A. Programación artesanal (1950s–60s) | 3 |
+| B. Crisis del software (1968) | 1 |
+| C. Modelo en cascada (1970s–80s) | 5 |
+| D. Métodos iterativos (1990s) | 4 |
+| E. Metodologías ágiles (2001–hoy) | 2 |
 
 1. Se acuña el término "ingeniería de software" en una conferencia de la OTAN ante fallas y sobrecostos de proyectos.
 2. Surge el Manifiesto Ágil; se popularizan Scrum, Kanban y XP.
@@ -85,20 +85,24 @@ _Respuesta:_
 **8. Menciona tres competencias que debe tener un ingeniero de software, además del conocimiento técnico.**
 
 _Respuesta:_
+1. Saber trabajar en equipo
+2. Saber analizar un problema y buscar una solución
+3. Responsabilidad y ética profesional
 
 
 **9. Describe brevemente qué hace cada uno de los siguientes roles dentro de un equipo de desarrollo:**
 
 | Rol | Descripción |
 |---|---|
-| Analista | |
-| Arquitecto | |
-| Desarrollador | |
-| Tester / QA | |
+| Analista | Se encarga de entender que necesita el cliente usuario y definir los requisitos del problema |
+| Arquitecto | Decide cómo va a estar organizado el sistema, y qué tecnologías o estructuras se va a utilizar|
+| Desarrollador | Escribe el código y construye las funcionalidades del sistema |
+| Tester / QA | Prueba el sistema para encontrar errores y verificar que funcione correctamente |
 
 **10. Caso breve:** Un ingeniero de software descubre, cerca de la fecha de entrega, una falla de seguridad que podría exponer datos de usuarios, pero corregirla retrasaría el proyecto una semana. ¿Qué debería hacer y por qué, considerando la ética profesional?
 
-_Respuesta:_
+_Respuesta:_ Yo creo que debería avisar del problema y solucionar la falla aunque se retrase una semana, porque es mejor entregar el proyecto un poco más tarde pero seguro, que entregarlo a tiempo sabiendo que tiene un problema de seguridad.
+Como profesional uno debe priorizar la seguridad de los usuarios y evitar causarles daño
 
 
 ---
