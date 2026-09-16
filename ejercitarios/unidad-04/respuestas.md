@@ -44,9 +44,9 @@ La ingeniería de requerimientos es el proceso de identificar, analizar, organiz
 
 | Aspecto | Requerimientos de usuario | Requerimientos de sistema |
 |---|---|---|
-| Audiencia principal | | |
-| Nivel de detalle | | |
-| Lenguaje utilizado | | |
+| Audiencia principal | Usuarios y clientes del sistema	| Desarrolladores, diseñadores y equipo técnico|
+| Nivel de detalle | General y fácil de comprender| Más detallado y específico|
+| Lenguaje utilizado |Lenguaje natural, evitando términos técnicos	 | Lenguaje más técnico y preciso|
 
 **5. Elegí un sistema que conozcas (una app, una plataforma, un sistema de tu universidad o trabajo) y da un ejemplo propio de un requerimiento funcional y uno no funcional para ese mismo sistema.**
 
