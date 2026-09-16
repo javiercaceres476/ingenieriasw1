@@ -99,12 +99,14 @@ _Respuesta:_
 
 **12. Menciona dos formas de representar un proceso (no un sistema) y explica brevemente cada una.**
 
-_Respuesta:_
+* Diagrama de flujo: representa gráficamente los pasos de un proceso utilizando símbolos y flechas para mostrar el orden en que se realizan las actividades.
+* Diagrama de actividad: permite representar las actividades que se realizan en un proceso, mostrando el orden de las acciones y las decisiones que pueden ocurrir durante el mismo.
 
 
 **13. ¿Qué es un patrón de proceso? Da un ejemplo hipotético de un problema recurrente en un proyecto y su solución.**
+Un patrón de proceso es una solución que puede utilizarse para resolver un problema que aparece de manera frecuente durante el desarrollo de un proyecto.
 
-_Respuesta:_
+Ejemplo: un problema recurrente puede ser que los requisitos cambien constantemente durante el desarrollo del sistema. Una posible solución sería revisar y aprobar los requisitos con el cliente antes de comenzar cada etapa, y registrar formalmente cualquier cambio que se solicite.
 
 
 ---
@@ -113,7 +115,11 @@ _Respuesta:_
 
 **14. Explica la diferencia entre herramientas Upper-CASE y Lower-CASE.**
 
-_Respuesta:_
+Las herramientas Upper CASE (Mayúsculas) se utilizan principalmente en las etapas iniciales del desarrollo, como la planificación, el análisis y el diseño del sistema.
+
+Las herramientas Lower CASE (Minúsculas) se utilizan principalmente en las etapas posteriores, como la programación, las pruebas y el mantenimiento del software.
+
+También existen las herramientas I-CASE, que integran funciones de las herramientas Upper CASE y Lower CASE y pueden utilizarse durante diferentes etapas del ciclo de desarrollo.
 
 
 **15. Menciona tres herramientas que consideren CASE (de su propia experiencia o investigación) y clasifíquenlas según la categoría a la que pertenecen.**
@@ -126,4 +132,6 @@ _Respuesta:_
 
 **16. Reflexión final:** de los modelos de proceso vistos en esta unidad, ¿cuál elegirían para un proyecto personal? Justifiquen su elección considerando el tamaño del proyecto, el tiempo disponible y el nivel de certeza sobre los requisitos.
 
-_Respuesta:_
+Para un proyecto personal elegiría un modelo iterativo, porque permite desarrollar el sistema por partes y realizar mejoras durante el proceso. Lo utilizaría especialmente para un proyecto de tamaño pequeño o mediano, donde se dispone de un tiempo limitado y los requisitos pueden cambiar a medida que se conoce mejor lo que necesita el usuario.
+
+Por ejemplo, si desarrollara un sistema para controlar el inventario de un pequeño negocio, primero podría crear las funciones principales y luego agregar mejoras según las necesidades que vayan apareciendo.
