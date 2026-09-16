@@ -104,7 +104,10 @@ _Respuesta:_
 
 **14. Explica la diferencia entre Ingeniería de procesos de negocio e Ingeniería de producto, dando un ejemplo de cada una.**
 
-_Respuesta:_
+La Ingeniería de procesos de negocio se enfoca en analizar y mejorar los procesos que realiza una organización para llevar a cabo sus actividades.
+Por ejemplo, analizar cómo se realiza actualmente el control de productos de un minisúper y buscar una forma más organizada de realizarlo.
+La Ingeniería de producto se enfoca en diseñar y desarrollar un producto específico que satisfaga determinadas necesidades.
+Por ejemplo, desarrollar un sistema de control de inventario para que el minisúper pueda registrar y controlar sus productos.
 
 
 **15. Ordena numéricamente (1 a 4) los siguientes pasos genéricos del proceso de Ingeniería de Sistemas, según la secuencia vista en clase.**
@@ -118,4 +121,5 @@ _Respuesta:_
 
 **16. Reflexión final:** ¿por qué crees que es importante que un ingeniero de software comprenda el sistema completo (Ingeniería de Sistemas) antes de comenzar a programar? Relaciona tu respuesta con algún ejemplo visto en la Unidad 01 o en esta unidad.
 
-_Respuesta:_
+Es importante que un ingeniero de software comprenda el sistema completo porque el software no funciona de manera aislada, sino que forma parte de un sistema donde también intervienen personas, hardware, datos, redes y procesos.
+Por ejemplo, en un sistema de control de inventario para un minisúper no sería suficiente con programar una pantalla para registrar productos. También se debe comprender quién utilizará el sistema, cómo se controla actualmente el inventario, qué información necesita el negocio y qué recursos serán necesarios para utilizarlo. De esta manera, se puede diseñar una solución que realmente responda a las necesidades del sistema completo.
