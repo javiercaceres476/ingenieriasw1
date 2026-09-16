@@ -41,22 +41,19 @@ _Respuesta:_
 | Sistema elegido| Aplicación de banco|
 | Una entrada | Cuando ingresamos nuestro usuario, contraseña y monto para una transferencia|
 | Una salida |El sistema muestra la confirmación de la transferencia |
-| Un elemento del entorno | La conexión a internet que permite comunicarse con los servidores del banco
-|
+| Un elemento del entorno | La conexión a internet que permite comunicarse con los servidores del banco|
 
 **6. ¿El sistema que elegiste es abierto o cerrado? Justifica tu respuesta.**
 
-_Respuesta:_
-
+Es un sistema abierto, porque interactúa constantemente con su entorno. Por ejemplo, recibe información del usuario y necesita una conexión a Internet para comunicarse con otros sistemas y procesar las operaciones bancarias.
 
 **7. Explica con tus palabras qué es la retroalimentación (feedback) en un sistema y da un ejemplo.**
 
-_Respuesta:_
-
+La retroalimentación es la información que recibe un sistema después de hacer algo. Por ejemplo, cuando hago una transferencia y me aparece un mensaje diciendo si se realizó correctamente o si hubo algún error.
 
 **8. Para el mismo sistema, menciona una restricción externa real que podría afectarlo, indicando si es organizacional, regulatoria o tecnológica.**
 
-_Respuesta:_
+Una restricción externa podría ser una restricción regulatoria, como las normas bancarias que obligan al sistema a verificar la identidad del usuario y proteger sus datos antes de permitir determinadas operaciones.
 
 
 ---
