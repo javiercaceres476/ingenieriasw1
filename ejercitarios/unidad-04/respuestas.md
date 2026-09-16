@@ -8,12 +8,20 @@
 
 **1. Define en tus propias palabras qué es la ingeniería de requerimientos.**
 
-_Respuesta:_
+La ingeniería de requerimientos es el proceso de identificar, analizar, organizar y documentar lo que los usuarios necesitan de un sistema. También permite comprobar que los requisitos estén claros y que el sistema que se desarrolle cumpla con esas necesidades.
 
 
 **2. Explica la diferencia entre "requerimiento", "especificación de requisitos" e "ingeniería de requisitos", con un ejemplo de cada uno.**
 
-_Respuesta:_
+* Requerimiento: es una necesidad o condición que el sistema debe cumplir.
+    Ejemplo: El sistema debe permitir registrar nuevos productos.
+  
+* Especificación de requisitos: es la descripción detallada y organizada de los requisitos que debe cumplir el sistema.
+    Ejemplo: Se especifica que para registrar un producto se debe ingresar su nombre, categoría, precio y cantidad disponible.
+  
+* Ingeniería de requisitos: es el proceso mediante el cual se identifican, analizan, documentan y validan los requisitos del sistema.
+    Ejemplo: Entrevistar a la dueña de un minisúper para conocer cómo controla actualmente sus productos y determinar qué funciones debería tener el sistema de inventario.
+
 
 
 ---
@@ -24,9 +32,9 @@ _Respuesta:_
 
 | Tipo de requerimiento | Descripción |
 |---|---|
-| A. Funcional | ___ |
-| B. No funcional | ___ |
-| C. Del dominio | ___ |
+| A. Funcional | _2_ |
+| B. No funcional | _3_ |
+| C. Del dominio | _1_ |
 
 1. Proviene de las reglas o restricciones propias del área o dominio de negocio.
 2. Describe una función o servicio concreto que el sistema debe realizar.
@@ -42,7 +50,13 @@ _Respuesta:_
 
 **5. Elegí un sistema que conozcas (una app, una plataforma, un sistema de tu universidad o trabajo) y da un ejemplo propio de un requerimiento funcional y uno no funcional para ese mismo sistema.**
 
-_Respuesta:_
+Sistema elegido: Sistema de Control de Inventario para un Minisúper
+
+Requerimiento funcional:
+El sistema debe permitir registrar un producto indicando su nombre, categoría y cantidad disponible.
+
+Requerimiento no funcional:
+El sistema debe tener una interfaz sencilla y fácil de utilizar para que la persona encargada del minisúper pueda realizar las operaciones de inventario sin dificultad.
 
 
 ---
