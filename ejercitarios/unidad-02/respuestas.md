@@ -8,29 +8,33 @@
 
 **1. Define en tus propias palabras qué es un sistema y da un ejemplo distinto al utilizado en clase.**
 
-_Respuesta:_
+Un sistema es un conjunto de elementos relacionados entre sí que trabajan de manera coordinada para cumplir un objetivo en común. Cada elemento cumple una función y depende de la interacción con los demás. 
 
+Ejemplo: Un sistema de biblioteca digital está formado por usuarios, computadoras, bases de datos, software y procedimientos que permiten buscar, guardar y consultar libros. 
 
 **2. Enumera los seis elementos de un sistema basado en computadora.**
 
-_Respuesta:_
+1. Software.
+2. Hardware.
+3. Personas.
+4. Bases de datos.
+5. Documentación.
+6. Procedimientos. 
 
 
 **3. Piensa en un sistema cotidiano (por ejemplo, una biblioteca, un supermercado o un club deportivo) y completa la tabla con un ejemplo propio para cada propiedad.**
 
 | Propiedad | Ejemplo en el sistema elegido |
 |---|---|
-| Jerarquía | |
-| Límites (fronteras) | |
-| Interrelación de elementos | |
-| Propiedades emergentes | |
+| Jerarquía | El supermercado puede dividirse en subsistemas como ventas, inventario, administración y proveedores. |
+| Límites (fronteras) | El límite del sistema incluye empleados, productos, cajas y sistemas internos, mientras que los clientes y proveedores forman parte del entorno.|
+| Interrelación de elementos | El área de ventas depende del inventario para conocer la disponibilidad de productos. |
+| Propiedades emergentes | El supermercado como conjunto permite ofrecer un servicio de compra eficiente,  algo que no logra un solo elemento pot separado.|
 
 **4. Dentro del mismo sistema, identifica un posible subsistema y justifica por qué lo consideras tal.**
 
-_Respuesta:_
+Un subsistema sería el sistema de inventario, porque esta formado por propios como productos,  registros, empleados y software, y cumple una función específica dentro del sistema general del supermercado. 
 
-
----
 
 ## Tema 2 · Los sistemas y su entorno
 
