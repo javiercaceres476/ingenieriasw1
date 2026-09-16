@@ -126,9 +126,9 @@ También existen las herramientas I-CASE, que integran funciones de las herramie
 
 | Herramienta | Categoría (Upper / Lower / I-CASE) |
 |---|---|
-| | |
-| | |
-| | |
+|Draw.io	 | Upper CASE|
+|Visual Studio Code | Lower CASE|
+|Enterprise Architect | I-CASE|
 
 **16. Reflexión final:** de los modelos de proceso vistos en esta unidad, ¿cuál elegirían para un proyecto personal? Justifiquen su elección considerando el tamaño del proyecto, el tiempo disponible y el nivel de certeza sobre los requisitos.
 
