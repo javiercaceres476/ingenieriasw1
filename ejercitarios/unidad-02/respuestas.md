@@ -38,10 +38,11 @@ _Respuesta:_
 
 | Elemento | Descripción en el sistema elegido |
 |---|---|
-| Sistema elegido | |
-| Una entrada | |
-| Una salida | |
-| Un elemento del entorno | |
+| Sistema elegido| Aplicación de banco|
+| Una entrada | Cuando ingresamos nuestro usuario, contraseña y monto para una transferencia|
+| Una salida |El sistema muestra la confirmación de la transferencia |
+| Un elemento del entorno | La conexión a internet que permite comunicarse con los servidores del banco
+|
 
 **6. ¿El sistema que elegiste es abierto o cerrado? Justifica tu respuesta.**
 
