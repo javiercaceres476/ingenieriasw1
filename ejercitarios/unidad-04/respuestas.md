@@ -67,17 +67,15 @@ El sistema debe tener una interfaz sencilla y fácil de utilizar para que la per
 
 | Característica | Pregunta que permite verificarla |
 |---|---|
-| Correcto | |
-| No ambiguo | |
-| Completo | |
-| Verificable | |
+| Correcto | ¿El requerimiento refleja realmente una necesidad del usuario o del sistema?|
+| No ambiguo |	¿Puede entenderse de una sola manera? |
+| Completo | ¿Contiene toda la información necesaria para entender qué debe hacer el sistema? |
+| Verificable | ¿Se puede comprobar mediante una prueba o revisión si el requerimiento se cumple? |
 
 **7. Tomá el requerimiento "El sistema debe ser rápido" y reescribilo de forma que cumpla con las características de un buen requerimiento vistas en clase.**
 
-_Respuesta:_
+El sistema debe responder a una consulta de búsqueda de pacientes en un tiempo máximo de 2 segundos, considerando una base de datos de hasta 10.000 registros y una carga de hasta 50 usuarios concurrentes.
 
-
----
 
 ## Tema 4 · Obtención y análisis de requerimientos
 
