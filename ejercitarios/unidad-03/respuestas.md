@@ -80,15 +80,13 @@ Elegiría el modelo incremental, porque permite desarrollar primero las funcione
 
 **8. Explica con tus palabras por qué la mayoría de los procesos modernos son iterativos.**
 
-_Respuesta:_
+_Respuesta:_La mayoría de los procesos modernos son iterativos porque permiten desarrollar un sistema por etapas, realizando mejoras y correcciones en cada ciclo. De esta manera, se pueden detectar errores, incorporar cambios en los requisitos y obtener versiones mejoradas del software sin tener que esperar hasta el final del proyecto.
 
 
 **9. Menciona una ventaja y una desventaja de trabajar con iteraciones cortas.**
 
-_Respuesta:_
-
-
----
+_Respuesta:_Ventaja: Permiten detectar errores rápidamente y recibir comentarios para mejorar el sistema en poco tiempo.
+Desventaja: Pueden generar más trabajo de planificación y adaptación, especialmente cuando los requisitos cambian constantemente
 
 ## Tema 4 · Especificación, diseño, implementación, validación y evolución
 
@@ -96,17 +94,18 @@ _Respuesta:_
 
 | Actividad | Qué implica |
 |---|---|
-| Especificación | |
-| Diseño e implementación | |
-| Validación | |
-| Evolución | |
+| Especificación |Define qué debe hacer el sistema y cuáles son sus requisitos y restricciones |
+| Diseño e implementación | Consiste en diseñar la estructura del sistema y desarrollar el software que lo hará funcionar.|
+| Validación |Comprueba que el sistema cumple con los requisitos y funciona correctamente |
+| Evolución | Consiste en modificar y adaptar el software después de su desarrollo para incorporar cambios, mejoras o nuevas necesidades.|
 
 **11. Relaciona estas cuatro actividades con las cinco fases del ciclo del software vistas en la Unidad 1 (análisis, diseño, implementación, pruebas, mantenimiento). ¿En qué se parecen y en qué se diferencian?**
 
-_Respuesta:_
-
-
----
+_Respuesta:_Se corresponden casi directamente: especificación ↔️ análisis, diseño e implementación ↔️ diseño e implementación (aquí se fusionan en una sola actividad), validación ↔️ pruebas, y evolución ↔️ mantenimiento.
+¿En qué se parecen?
+Ambos modelos describen actividades necesarias para desarrollar y mantener un sistema de software. En los dos se consideran los requisitos, el diseño, la construcción del software, las pruebas y los cambios posteriores.
+¿En qué se diferencian?
+La principal diferencia es que el modelo de Sommerville agrupa algunas actividades. Por ejemplo, une diseño e implementación en una sola actividad, mientras que el otro ciclo las presenta como fases separadas. Además, Sommerville utiliza evolución para representar los cambios y mejoras que se realizan durante la vida del software.
 
 ## Tema 5 · Herramientas y técnicas para modelado de procesos
 
