@@ -128,8 +128,8 @@ Ejemplo: Sistema de control de un avión.
 
 **12. Explica la diferencia entre un prototipo desechable y un prototipo evolutivo, con un ejemplo de un proyecto donde usarías cada uno.**
 
-_Respuesta:_
-
+_Respuesta:_Prototipo desechable (throwaway): se construye rápido y barato solo para explorar o validar una idea (por ejemplo, la interfaz de usuario o un requisito ambiguo), y luego se descarta; el sistema final se construye desde cero. Ejemplo: hacer una maqueta en papel o en Figma de la pantalla de login de una app para validar con el cliente si le gusta el flujo, sin usar ese código para el producto real.
+	•	Prototipo evolutivo: se construye con calidad suficiente para ir mejorándolo iterativamente hasta convertirse en el sistema final; no se descarta, se refina. Ejemplo: un MVP (producto mínimo viable) de una app de e-commerce que se lanza a usuarios reales y se va ampliando con nuevas funcionalidades en cada sprint hasta llegar al producto completo.
 
 ---
 
@@ -137,8 +137,8 @@ _Respuesta:_
 
 **13. Menciona dos técnicas de construcción rápida de prototipos vistas en clase y explica brevemente en qué consiste cada una.**
 
-_Respuesta:_
-
+_Respuesta:_Programación visual / drag-and-drop: herramientas donde se arman pantallas e interacciones arrastrando componentes (botones, formularios, etc.) sin escribir mucho código, ideal para mostrar rápido cómo se vería la interfaz (ej. Figma, Adobe XD, o generadores de UI).
+	•	Reutilización de componentes existentes: se arma el prototipo combinando bibliotecas, frameworks o módulos ya hechos (por ejemplo, componentes de Bootstrap o Material UI) en lugar de programar todo desde cero, lo que acelera mucho la construcción.
 
 ---
 
