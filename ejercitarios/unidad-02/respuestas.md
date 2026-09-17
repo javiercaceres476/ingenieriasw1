@@ -66,17 +66,17 @@ Una restricción externa podría ser una restricción regulatoria, como las norm
 
 **9. Menciona dos razones por las cuales es útil modelar un sistema antes de construirlo.**
 
-_Respuesta:_
-
+_Respuesta:_Permite detectar errores, ambigüedades o requisitos incompletos en etapas tempranas, cuando corregirlos es mucho más barato que hacerlo durante o después del desarrollo.
+	•	Facilita la comunicación entre los distintos interesados (clientes, desarrolladores, usuarios) al ofrecer una representación común y más simple que el sistema real, ayudando a validar que todos entienden lo mismo antes de invertir tiempo y recursos en construirlo
 
 **10. Ejercicio de relación** (completá con el número que corresponda a cada letra):
 
 | Nivel de visión | Descripción |
 |---|---|
-| A. Visión del mundo (worldview) | ___ |
-| B. Visión del dominio | ___ |
-| C. Visión del elemento | ___ |
-| D. Visión detallada | ___ |
+| A. Visión del mundo (worldview) | 3: La visión del mundo representa el contexto global, incluyendo todos los sistemas y organizaciones que interactúan. |
+| B. Visión del dominio | 4: La visión del dominio representa el sector o área específica del negocio dentro de ese contexto. |
+| C. Visión del elemento |1: La visión del elemento representa el sistema particular que se va a construir. |
+| D. Visión detallada |2 La visión detallada muestra los componentes internos del sistema, como software, hardware y datos. |
 
 1. El sistema particular que se va a construir, dentro del dominio.
 2. Los componentes internos del sistema: software, hardware, datos, etc.
@@ -85,20 +85,21 @@ _Respuesta:_
 
 **11. Explica la diferencia entre vista estructural y vista de comportamiento, y da un ejemplo de notación para cada una.**
 
-_Respuesta:_
+_Respuesta:_Vista estructural: muestra cómo están organizados los elementos de un sistema y sus relaciones estáticas (qué componentes existen y cómo se conectan). Ejemplo de notación: diagrama de clases (UML) o diagrama de componentes.
+	•	Vista de comportamiento: muestra cómo interactúan y cambian esos elementos a lo largo del tiempo o ante eventos (el "cómo funciona" dinámicamente). Ejemplo de notación: diagrama de secuencia o diagrama de estados (UML).
 
 
 **12. Diagrama de contexto:** elige un sistema simple (por ejemplo, un cajero automático, una app de delivery) y dibujá un diagrama de contexto que muestre el sistema y al menos dos entidades externas con las que interactúa. Adjuntá la imagen acá abajo.
 
-_(Arrastrá la imagen a este archivo desde el editor de GitHub para insertarla)_
+_(Arrastrá la imagen a este archivo desde el editor de GitHub para insertarla)_<img width="1284" height="592" alt="image" src="https://github.com/user-attachments/assets/96918398-9bed-4cdf-a1f9-990d8bb5813c" />
+
 
 
 **13. ¿En qué situación elegirías usar simulación en lugar de un modelo estático? Da un ejemplo concreto.**
 
-_Respuesta:_
-
-
----
+_Respuesta:_Elegiría utilizar una simulación cuando sea necesario observar cómo se comporta un sistema a lo largo del tiempo y analizar diferentes situaciones o escenarios antes de implementarlo en la realidad.
+Por ejemplo, en un cajero automático, se puede utilizar una simulación para analizar qué sucede cuando hay muchos clientes realizando operaciones al mismo tiempo, cuánto tiempo deben esperar y cómo responde el sistema ante diferentes cantidades de usuarios.
+Un modelo estático muestra principalmente la estructura del sistema, mientras que una simulación permite observar su comportamiento y funcionamiento en diferentes situaciones
 
 ## Tema 4 · El proceso de Ingeniería de Sistemas
 
