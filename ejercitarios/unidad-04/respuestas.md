@@ -83,16 +83,18 @@ _Respuesta:_
 
 **8. Enumera las cuatro etapas del ciclo de obtención y análisis de requerimientos vistas en clase.**
 
-_Respuesta:_
-
+1. Descubrimiento.
+2. Clasificación y organización.
+3. Priorización y negociación.
+4. Especificación y documentación.
 
 **9. Ejercicio de relación** (completen con el número que corresponda a cada letra):
 
 | Técnica de obtención | Situación en que conviene usarla |
 |---|---|
-| A. Entrevistas | ___ |
-| B. Observación | ___ |
-| C. Talleres / workshops | ___ |
+| A. Entrevistas | 3___ |
+| B. Observación | 1___ |
+| C. Talleres / workshops | 2___ |
 
 1. Cuando el usuario no puede verbalizar fácilmente lo que necesita.
 2. Cuando hay varios interesados con visiones distintas que negociar.
@@ -106,21 +108,21 @@ _Respuesta:_
 
 | Técnica | Ventaja | Limitación |
 |---|---|---|
-| Lenguaje natural estructurado | | |
-| Casos de uso | | |
-| Historias de usuario | | |
-| Diagramas (UML) | | |
+| Lenguaje natural estructurado | Fácil de entender para usuarios.| Puede presentar ambiguedades.|
+| Casos de uso | Describe claramente la interacción usuario-sistema.| Puede ser extenso en sistemas grandes.|
+| Historias de usuario | Son simples y útiles en metodología ágiles.| No siempre tienen suficiente detalle técnico.|
+| Diagramas (UML) | Facilitan la representación visual.| Requieren conocimiento de la notación.|
 
----
 
 ## Tema 6 · Especificaciones formales
 
 **11. ¿Qué es una especificación formal y en qué tipo de sistemas se justifica su uso? Da un ejemplo hipotético de un sistema donde la usarías.**
 
-_Respuesta:_
+Es una descripción de los requerimientos utilizando una notación matemática con reglas definidas, evitando interpretaciones diferentes.
 
+Se utiliza principalmente en sistemas críticos donde un error puede causar consecuencias graves, como sistemas médicos o de control industrial.
 
----
+Ejemplo: Sistema de control de un avión.
 
 ## Tema 7 · Prototipado de los requerimientos
 
