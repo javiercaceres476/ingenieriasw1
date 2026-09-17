@@ -8,7 +8,7 @@
 
 **1. Define en tus propias palabras qué es un proceso de software.**
 
-Un proceso de software es un conjunto organizado de actividades y tareas que se realizan para transformar una necesidad o idea del usuario en un producto de software funcional. Permite planificar. desarrollar, probar y entregar un sistema siguiendo un orden establecido.
+Un proceso de software es un conjunto organizado de actividades y tareas que se realizan para transformar una necesidad o idea del usuario en un producto de software funcional. Permite planificar, desarrollar, probar y entregar un sistema siguiendo una orden establecido.
 
 
 **2. Explica la diferencia entre proceso, metodología y modelo de proceso, con un ejemplo de cada uno.**
@@ -58,7 +58,7 @@ Se llama así porque se realizan durante todas las etapas del desarrollo del sof
 
 | Modelo de proceso | Característica principal |
 |---|---|
-| A. Cascada | __2_ |
+| A. Cascada | _2__ |
 | B. Incremental | _4__ |
 | C. Prototipos | _5__ |
 | D. Espiral | _1__ |
