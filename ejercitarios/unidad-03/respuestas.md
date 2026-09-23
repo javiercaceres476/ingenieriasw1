@@ -101,10 +101,10 @@ Desventaja: Pueden generar más trabajo de planificación y adaptación, especia
 
 **11. Relaciona estas cuatro actividades con las cinco fases del ciclo del software vistas en la Unidad 1 (análisis, diseño, implementación, pruebas, mantenimiento). ¿En qué se parecen y en qué se diferencian?**
 
-Se corresponden casi directamente: especificación ↔️ análisis, diseño e implementación ↔️ diseño e implementación (aquí se fusionan en una sola actividad), validación ↔️ pruebas, y evolución ↔️ mantenimiento.
-¿En qué se parecen?
+Se corresponden casi directamente: especificación - análisis, diseño e implementación - diseño e implementación (aquí se fusionan en una sola actividad), validación - pruebas, y evolución - mantenimiento.
+**¿En qué se parecen?**
 Ambos modelos describen actividades necesarias para desarrollar y mantener un sistema de software. En los dos se consideran los requisitos, el diseño, la construcción del software, las pruebas y los cambios posteriores.
-¿En qué se diferencian?
+**¿En qué se diferencian?**
 La principal diferencia es que el modelo de Sommerville agrupa algunas actividades. Por ejemplo, une diseño e implementación en una sola actividad, mientras que el otro ciclo las presenta como fases separadas. Además, Sommerville utiliza evolución para representar los cambios y mejoras que se realizan durante la vida del software.
 
 ## Tema 5 · Herramientas y técnicas para modelado de procesos
