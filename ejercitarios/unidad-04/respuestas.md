@@ -1,8 +1,5 @@
 # Respuestas — Ejercitario Unidad 04
 
-> Completen cada pregunta debajo de su enunciado. Pueden borrar este bloque de instrucciones una vez que empiecen.
-
----
 
 ## Tema 1 · El proceso de requerimientos
 
@@ -21,10 +18,6 @@ La ingeniería de requerimientos es el proceso de identificar, analizar, organiz
   
 * Ingeniería de requisitos: es el proceso mediante el cual se identifican, analizan, documentan y validan los requisitos del sistema.
     Ejemplo: Entrevistar a la dueña de un minisúper para conocer cómo controla actualmente sus productos y determinar qué funciones debería tener el sistema de inventario.
-
-
-
----
 
 ## Tema 2 · Tipos de requerimientos
 
@@ -58,8 +51,6 @@ El sistema debe permitir registrar un producto indicando su nombre, categoría y
 Requerimiento no funcional:
 El sistema debe tener una interfaz sencilla y fácil de utilizar para que la persona encargada del minisúper pueda realizar las operaciones de inventario sin dificultad.
 
-
----
 
 ## Tema 3 · Características de los requerimientos
 
