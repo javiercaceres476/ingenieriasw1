@@ -137,28 +137,28 @@ _Respuesta:_Programación visual / drag-and-drop: herramientas donde se arman pa
 
 | Técnica de validación | Qué tipo de problema detecta mejor |
 |---|---|
-| Revisiones de requisitos | |
-| Prototipado | |
-| Generación de casos de prueba | |
+| Revisiones de requisitos | Detectan errores, contradicciones, información incompleta o requisitos ambiguos. |
+| Prototipado | Permite detectar problemas de comprensión, diseño o necesidades que el usuario no había expresado claramente. |
+| Generación de casos de prueba | Permite comprobar si los requisitos pueden ser comprobados y si el sistema cumple con lo solicitado. |
 
----
 
 ## Tema 10 · Administración de requerimientos
 
 **15. Explica con tus palabras qué es la trazabilidad de requerimientos y por qué es importante en un proyecto real.**
 
-_Respuesta:_
-
-
----
+La trazabilidad de requerimientos es la posibilidad de seguir un requerimiento durante todo el proyecto, desde que se identifica hasta que se desarrolla y se prueba. Es importante porque permite saber qué parte del sistema corresponde a cada requerimiento y verificar que ninguno quede sin implementar. También ayuda a controlar los cambios que se hagan durante el proyecto.
 
 ## Tema 11 · Medición de requerimientos
 
 **16. Menciona dos métricas que se pueden aplicar a los requerimientos de un proyecto y qué información le aporta cada una al equipo.**
 
-_Respuesta:_
+**Dos métricas que se pueden utilizar son:**
 
+**Cantidad de requisitos:** permite conocer cuántos requisitos tiene el proyecto y controlar si el alcance está aumentando demasiado.
+**Porcentaje de requisitos cumplidos:** permite saber qué cantidad de requisitos ya fueron implementados y cuáles todavía están pendientes.
 
 **17. Reflexión final:** pensá en un proyecto de software (hipotético o real). Describí qué técnica de obtención, qué técnica de especificación y qué técnica de validación usarías para sus requerimientos, y justificá tu elección considerando el tipo de proyecto y de usuarios.
 
-_Respuesta:_
+Para un sistema de control de inventario de un minisúper, utilizaría entrevistas como técnica de obtención, porque permitirían hablar directamente con la persona encargada y conocer cómo trabaja actualmente y qué necesita.
+Para especificar los requerimientos utilizaría casos de uso, porque permiten representar de forma clara las acciones que puede realizar el usuario, como registrar productos, modificar cantidades o consultar el inventario.
+Para validar los requerimientos utilizaría prototipado, porque permitiría mostrar al encargado cómo funcionaría el sistema antes de desarrollarlo completamente y comprobar si las pantallas y funciones son realmente las que necesita.
