@@ -58,11 +58,11 @@ Se llama así porque se realizan durante todas las etapas del desarrollo del sof
 
 | Modelo de proceso | Característica principal |
 |---|---|
-| A. Cascada | _2__ |
-| B. Incremental | _4__ |
-| C. Prototipos | _5__ |
-| D. Espiral | _1__ |
-| E. Concurrente | _3__ |
+| A. Cascada | _2_ |
+| B. Incremental | _4_ |
+| C. Prototipos | _5_ |
+| D. Espiral | _1_ |
+| E. Concurrente | _3_ |
 
 1. Combina iteración con análisis explícito de riesgo en cada vuelta.
 2. Enfoque secuencial y lineal, actividad por actividad.
@@ -80,12 +80,12 @@ Elegiría el modelo incremental, porque permite desarrollar primero las funcione
 
 **8. Explica con tus palabras por qué la mayoría de los procesos modernos son iterativos.**
 
-_Respuesta:_La mayoría de los procesos modernos son iterativos porque permiten desarrollar un sistema por etapas, realizando mejoras y correcciones en cada ciclo. De esta manera, se pueden detectar errores, incorporar cambios en los requisitos y obtener versiones mejoradas del software sin tener que esperar hasta el final del proyecto.
+La mayoría de los procesos modernos son iterativos porque permiten desarrollar un sistema por etapas, realizando mejoras y correcciones en cada ciclo. De esta manera, se pueden detectar errores, incorporar cambios en los requisitos y obtener versiones mejoradas del software sin tener que esperar hasta el final del proyecto.
 
 
 **9. Menciona una ventaja y una desventaja de trabajar con iteraciones cortas.**
 
-_Respuesta:_Ventaja: Permiten detectar errores rápidamente y recibir comentarios para mejorar el sistema en poco tiempo.
+Ventaja: Permiten detectar errores rápidamente y recibir comentarios para mejorar el sistema en poco tiempo.
 Desventaja: Pueden generar más trabajo de planificación y adaptación, especialmente cuando los requisitos cambian constantemente
 
 ## Tema 4 · Especificación, diseño, implementación, validación y evolución
@@ -101,7 +101,7 @@ Desventaja: Pueden generar más trabajo de planificación y adaptación, especia
 
 **11. Relaciona estas cuatro actividades con las cinco fases del ciclo del software vistas en la Unidad 1 (análisis, diseño, implementación, pruebas, mantenimiento). ¿En qué se parecen y en qué se diferencian?**
 
-_Respuesta:_Se corresponden casi directamente: especificación ↔️ análisis, diseño e implementación ↔️ diseño e implementación (aquí se fusionan en una sola actividad), validación ↔️ pruebas, y evolución ↔️ mantenimiento.
+Se corresponden casi directamente: especificación ↔️ análisis, diseño e implementación ↔️ diseño e implementación (aquí se fusionan en una sola actividad), validación ↔️ pruebas, y evolución ↔️ mantenimiento.
 ¿En qué se parecen?
 Ambos modelos describen actividades necesarias para desarrollar y mantener un sistema de software. En los dos se consideran los requisitos, el diseño, la construcción del software, las pruebas y los cambios posteriores.
 ¿En qué se diferencian?
