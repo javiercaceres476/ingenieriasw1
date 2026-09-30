@@ -171,9 +171,11 @@ En esta etapa se presenta una visión general de la solución. Los detalles téc
 
 | Riesgo | Impacto | Estrategia de mitigación |
 |---|---|---|
-| [ej. Baja disponibilidad del cliente para validaciones] | [Alto/Medio/Bajo] | [cómo se planea mitigar] |
-| [Riesgo 2] | [Alto/Medio/Bajo] | [cómo se planea mitigar] |
-
+| Información insuficiente sobre el funcionamiento del negocio. | Al comienzo del proyecto puede no conocerse completamente la forma en que la propietaria controla actualmente los productos. | Realizar entrevistas y consultas con la propietaria para conocer el proceso actual y validar los requisitos. |
+| Cambios en los requisitos. | Durante el desarrollo del proyecto pueden surgir nuevas necesidades o modificaciones solicitadas por el cliente. | Establecer un alcance inicial y registrar los cambios para evaluar su incorporación al proyecto. |
+| Falta de tiempo. | El proyecto debe desarrollarse dentro del periodo establecido por la asignatura. | Mantener un alcance limitado y priorizar las funciones principales del control de inventario. |
+| Dificultades en la adopción del sistema. | Al tratarse de un negocio que actualmente trabaja de forma manual, puede existir cierta dificultad inicial para adaptarse a una herramienta informática. | Diseñar una interfaz sencilla y considerar las necesidades y conocimientos tecnológicos de las personas que utilizarán el sistema. |
+| Falta de equipamiento. | Actualmente el minisuper no dispone de una computadora destinada al control del inventario. | Considerar durante el diseño las alternativas de equipamientos necesarias para utilizar el sistema y seleccionar una solución que no requiera infraestructura excesivamente costosa. |
 ---
 
 ## 10. Selección tecnológica preliminar
