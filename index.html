@@ -1,414 +1,374 @@
-[← Volver al inicio](index.md)
-
-# Entrega 1 · Conceptualización
-
-> *Punto de partida: entender el problema y encuadrar el proyecto.*
-
----
-
-## 1. Presentación del proyecto
-
-**Nombre del sistema:** Sistema de Control de Inventario para un Minisúper
-
-**Integrantes del grupo:**
-
-| Nombre | Rol |
-|---|---|
-| Javier Caceres | Análisis de requisitos y documentación. |
-| Iliana Flecha | Modelado y diseño del sistema.|
-| Vivian Obregon | Levantamiento de información y comunicación con el cliente. |
-| Hanna Salas | Investigación tecnológica y gestión del proyecto. | 
-
-**Usuario / cliente real:** 
-El sistema será desarrollado para un minisúper administrado por la madre de una integrante del grupo.
-Actualmente, el negocio realiza el control de sus productos de manera manual y las ventas se realizan directamente en el establecimiento. No cuenta con una computadora ni con un sistema informático destinado al control de inventario.
-La propietaria será la principal cliente del proyecto y proporcionará información sobre la forma en que actualmente administra los productos y las necesidades que presenta el negocio.
-
-## 2. Definición del problema
-Actualmente, el minisúper realiza el control de sus productos de forma manual y no dispone de una herramienta informática destinada a gestionar el inventario.
-Esta situación dificulta mantener la información de los productos organizada y conocer de manera rápida la cantidad disponible de cada artículo. También puede dificultar la identificación de productos que necesitan ser repuestos.
-La falta de un sistema de control de inventario hace necesario realizar una gestión manual de la información, lo que puede generar dificultades para mantener actualizado el stock y llevar un seguimiento organizado de los productos disponibles.
-Por este motivo, se plantea el desarrollo de un sistema que permita organizar y facilitar el control del inventario del minisúper.
-
-## 3. Propósito y objetivos
-**Objetivo general:**
-Diseñar un sistema de control de inventario para un minisúper que permita gestionar de manera organizada la información de los productos, controlar sus existencias y facilitar la identificación de productos que necesitan reposición.
-
-**Objetivos específicos:**
-1. Registrar y mantener actualizada la información de los productos, incluyendo sus datos principales y cantidad disponible.
-2. Controlar las entradas y salidas de productos para mantener actualizado el stock del minisúper.
-3. Facilitar la consulta del inventario, permitiendo identificar los productos disponibles y aquellos que se encuentren por debajo del stock mínimo establecido.
-
-
-## 4. Alcance del proyecto
-
-
-El sistema estará orientado al control y administración del inventario del minisúper.
-
-4.1 Funcionalidades incluidas
-
-La primera versión del sistema permitirá:
-
-* Registrar productos.
-* Modificar los datos de los productos.
-* Desactivar productos que ya no se comercialicen.
-* Consultar y buscar productos.
-* Registrar la cantidad disponible de cada producto.
-* Registrar entradas de productos.
-* Registrar salidas de productos.
-* Actualizar las cantidades disponibles.
-* Establecer un nivel mínimo de stock.
-* Identificar productos con bajo stock.
-* Consultar el estado actual del inventario.
-
-4.2 Fuera del alcance
-
-Para mantener un alcance realista, la primera versión no incluirá:
-
-* Registro y gestión de ventas.
-* Compras en línea.
-* Servicio de delivery.
-* Pagos electrónicos.
-* Facturación electrónica.
-* Gestión de múltiples sucursales.
-* Aplicación móvil.
-* Integración automática con proveedores.
-* Control contable del negocio.
-
-Estas funcionalidades podrían considerarse en futuras versiones del sistema, pero no forman parte del alcance inicial del proyecto.
-
----
-
-## 5. Interesados (stakeholders)
-5.1 Propietaria del minisúper
-
-Es la principal interesada y cliente del sistema. Se encarga de la administración general del negocio.
-
-Interés: disponer de una herramienta que facilite el control y organización del inventario.
-
-
-5.2 Personal encargado de la atención
-
-Son las personas que colaboran en la atención del minisúper y pueden necesitar consultar o actualizar información relacionada con los productos.
-
-Interés: acceder de manera sencilla a la información del inventario y mantener actualizadas las cantidades disponibles.
-
-
-5.3 Administrador del sistema
-
-Será el usuario encargado de administrar la información principal del sistema.
-
-Interés: registrar, modificar y controlar los productos y el inventario.
-
-
-5.4 Clientes del minisúper
-
-Son las personas que adquieren los productos disponibles en el establecimiento.
-
-Interés: encontrar los productos disponibles y recibir una atención más organizada.
-
----
-
-## 6. Justificación / viabilidad
-6.1 Justificación
-
-El proyecto surge a partir de una necesidad real de un minisúper que actualmente realiza el control de sus productos de manera manual.
-
-La implementación de un sistema de control de inventario permitirá organizar la información de los productos y facilitar el seguimiento de las cantidades disponibles. Esto puede ayudar a la propietaria a conocer con mayor facilidad el estado de su inventario y detectar productos que necesitan reposición.
-
-Además, al tratarse de un negocio real, el grupo podrá obtener información directamente de la cliente y validar que la propuesta responda a sus necesidades.
-
-
-6.2 Viabilidad técnica
-
-El proyecto es técnicamente viable, ya que puede desarrollarse utilizando herramientas y tecnologías disponibles para el grupo.
-
-El sistema puede utilizar una base de datos relacional para almacenar la información de los productos y sus movimientos de inventario.
-
-
-6.3 Viabilidad operativa
-
-El sistema estará diseñado considerando las actividades habituales del minisúper y procurando que su utilización sea sencilla para las personas encargadas del negocio.
-
-La propietaria podrá participar durante el análisis para validar las necesidades y el funcionamiento esperado del sistema.
-
-
-6.4 Viabilidad económica
-
-El proyecto es económicamente viable debido a que puede desarrollarse utilizando herramientas de software gratuitas o de bajo costo.
-
-La implementación podrá realizarse inicialmente utilizando los recursos tecnológicos disponibles y, posteriormente, analizar la necesidad de adquirir un equipo destinado exclusivamente al sistema.
-
----
-
-## 7. Visión general de la solución
-
-[Descripción breve, en lenguaje llano y sin detalle técnico, de cómo el grupo imagina que el sistema resolverá el problema planteado.]
-
----Se propone desarrollar un sistema informático que permita centralizar y organizar la información relacionada con el inventario del minisúper.
-El sistema permitirá registrar los productos, consultar sus datos, controlar las cantidades disponibles y registrar los movimientos de entrada y salida de productos.
-Además, permitirá establecer niveles mínimos de stock para identificar aquellos productos cuya cantidad disponible sea baja y requiera reposición.
-La solución estará orientada principalmente a la propietaria y a las personas autorizadas para utilizar el sistema, buscando que puedan gestionar el inventario de manera sencilla y organizada.
-En esta etapa se presenta una visión general de la solución. Los detalles técnicos y modelos específicos serán desarrollados en las siguientes entregas
-
-## 8. Glosario de términos
-
-| Término | Definición |
-|---|---|
-| [Producto] | [Artículo disponible en el minisúper para su comercialización] |
-| [Inventario] | [Conjunto de productos disponibles y registrados en el minisúper.] |
-| [Stock] | [Cantidad disponible de un determinado producto] |
-| [Entrada] | [Registro de productos que ingresan al inventario, por ejemplo, debido a una reposición.] |
-| [Salida] | [Registro de productos que disminuyen la cantidad disponible del inventario.] |
-| [Stock mínimo] | [Cantidad mínima establecida para un producto antes de considerarlo con bajo stock.] |
-| [Bajo stock] | [Estado de un producto cuya cantidad disponible se encuentra por debajo del nivel mínimo establecido] |
-| [Reposición] | [Proceso mediante el cual se incorporan nuevos productos al inventario para aumentar su disponibilidad] |
-| [Usuario] | [Persona autorizada para acceder y utilizar el sistema] |
-| [Administrador] | [Usuario encargado de gestionar la información y las operaciones principales del sistema] |
----
-
-## 9. Riesgos iniciales
-
-| Riesgo | Impacto | Estrategia de mitigación |
-|---|---|---|
-| Información insuficiente sobre el funcionamiento del negocio. | Al comienzo del proyecto puede no conocerse completamente la forma en que la propietaria controla actualmente los productos. | Realizar entrevistas y consultas con la propietaria para conocer el proceso actual y validar los requisitos. |
-| Cambios en los requisitos. | Durante el desarrollo del proyecto pueden surgir nuevas necesidades o modificaciones solicitadas por el cliente. | Establecer un alcance inicial y registrar los cambios para evaluar su incorporación al proyecto. |
-| Falta de tiempo. | El proyecto debe desarrollarse dentro del periodo establecido por la asignatura. | Mantener un alcance limitado y priorizar las funciones principales del control de inventario. |
-| Dificultades en la adopción del sistema. | Al tratarse de un negocio que actualmente trabaja de forma manual, puede existir cierta dificultad inicial para adaptarse a una herramienta informática. | Diseñar una interfaz sencilla y considerar las necesidades y conocimientos tecnológicos de las personas que utilizarán el sistema. |
-| Falta de equipamiento. | Actualmente el minisuper no dispone de una computadora destinada al control del inventario. | Considerar durante el diseño las alternativas de equipamientos necesarias para utilizar el sistema y seleccionar una solución que no requiera infraestructura excesivamente costosa. |
-
----
-
-## 10. Selección tecnológica preliminar
-La selección tecnológica es preliminar y podrá ser ajustada durante las etapas de análisis y diseño.
-| Componente | Elección | Justificación breve |
-|---|---|---|
-| Lenguaje de programación | Java | Se propone Java debido a que permite desarrollar aplicaciones utilizando programación orientada a objetos y facilita la organización del sistema mediante clases y componentes. |
-| Framework | Spring Boot | Se propone utilizar Spring Boot para facilitar el desarrollo de la aplicación y permitir una estructura organizada para sus diferentes componentes. |
-| Base de datos | MySQL | Se propone utilizar MySQL para almacenar la información de los productos, las cantidades disponibles y los movimientos de inventario. |
-
----
-
-Herramientas complementarias:
-
-Github: Para almacenar y gestionar el proyecto.
-
-Github Pages: Para publicar las entregas del trabajo.
-
-Draw.io: Para elaborar los diagramas del sistema.
-
-Figma: Para realizar los prototipos de las interfaces.
-
----
-
-[← Volver al inicio](index.md) · [Siguiente: Análisis →](analisis.md)
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Ingeniería de Software</title>
+    <title>Conceptualización | Sistema de Inventario</title>
 
     <style>
         * {
+            box-sizing: border-box;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
         }
 
         body {
-            font-family: Arial, sans-serif;
-            background: #f4f6fb;
-            color: #263248;
-            line-height: 1.6;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f7f4fa;
+            color: #302b38;
+            line-height: 1.7;
         }
 
-        /* ENCABEZADO */
+        /* BARRA SUPERIOR */
         header {
-            background: linear-gradient(135deg, #4f46a5, #6d5bd0);
+            background: linear-gradient(135deg, #51367c, #7452a8);
             color: white;
-            padding: 70px 20px;
-            text-align: center;
+            padding: 18px 6%;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 4px 18px rgba(45, 30, 70, 0.18);
         }
 
-        header .icono {
-            font-size: 50px;
+        .nav {
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .brand {
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* PORTADA */
+        .hero {
+            max-width: 1150px;
+            margin: 45px auto 25px;
+            padding: 60px 35px;
+            text-align: center;
+            background: white;
+            border-radius: 25px;
+            box-shadow: 0 8px 30px rgba(70, 50, 100, 0.08);
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 7px 15px;
+            border-radius: 30px;
+            background: #f1ebf9;
+            color: #51367c;
+            font-weight: bold;
+            font-size: 12px;
+            margin-bottom: 16px;
+        }
+
+        h1 {
+            color: #51367c;
+            font-size: 42px;
+            line-height: 1.2;
             margin-bottom: 15px;
         }
 
-        header h1 {
-            font-size: 42px;
-            margin-bottom: 10px;
+        .hero p {
+            max-width: 780px;
+            margin: auto;
+            color: #6f6877;
+            font-size: 17px;
         }
 
-        header p {
-            font-size: 18px;
-            opacity: 0.9;
+        /* CONTENIDO */
+        main {
+            max-width: 1150px;
+            margin: auto;
+            padding: 0 20px 60px;
         }
 
-        /* CONTENEDOR */
-        .container {
-            width: 90%;
-            max-width: 1000px;
-            margin: 45px auto;
-        }
-
-        /* INTRODUCCIÓN */
-        .intro {
+        section {
             background: white;
-            padding: 30px;
-            border-radius: 18px;
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
-            margin-bottom: 40px;
-            text-align: center;
+            padding: 35px;
+            margin: 25px 0;
+            border-radius: 20px;
+            box-shadow: 0 5px 22px rgba(70, 50, 100, 0.06);
         }
 
-        .intro h2 {
-            color: #4f46a5;
-            margin-bottom: 12px;
+        .numero {
+            color: #9877bd;
+            font-size: 13px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
         }
 
-        /* TÍTULOS DE TEMAS */
-        .tema {
-            margin-bottom: 45px;
+        h2 {
+            color: #51367c;
+            font-size: 27px;
+            margin: 3px 0 20px;
         }
 
-        .tema-titulo {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            margin-bottom: 20px;
+        h3 {
+            color: #62448c;
+            font-size: 18px;
+            margin: 25px 0 10px;
         }
 
-        .tema-numero {
-            background: #4f46a5;
-            color: white;
-            width: 45px;
-            height: 45px;
-            border-radius: 12px;
+        p {
+            margin-bottom: 14px;
+        }
+
+        /* DESTACADOS */
+        .destacado {
+            background: #f1ebf9;
+            border-left: 5px solid #7452a8;
+            padding: 20px;
+            border-radius: 0 12px 12px 0;
+            margin: 15px 0;
+        }
+
+        /* INTEGRANTES */
+        .integrantes {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin-top: 18px;
+        }
+
+        .integrante {
+            border: 1px solid #e4dced;
+            background: #fbf9fd;
+            border-radius: 15px;
+            padding: 20px;
+        }
+
+        .inicial {
+            width: 48px;
+            height: 48px;
             display: flex;
             align-items: center;
             justify-content: center;
+            border-radius: 50%;
+            background: #e7dcf3;
+            color: #51367c;
             font-weight: bold;
-            font-size: 20px;
+            margin-bottom: 10px;
         }
 
-        .tema-titulo h2 {
-            color: #30365a;
-            font-size: 25px;
+        .integrante h3 {
+            margin: 0 0 6px;
+            font-size: 16px;
         }
 
-        /* TARJETAS */
-        .card {
-            background: white;
-            padding: 28px;
-            border-radius: 16px;
-            margin-bottom: 20px;
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
-            border-left: 5px solid #6d5bd0;
-            transition: transform 0.25s ease, box-shadow 0.25s ease;
-        }
-
-        .card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 10px 28px rgba(0, 0, 0, 0.10);
-        }
-
-        .card h3 {
-            color: #4f46a5;
-            margin-bottom: 15px;
-            font-size: 18px;
-        }
-
-        .card p {
-            color: #4d566b;
-        }
-
-        /* LISTAS */
-        .card ul {
-            margin-top: 12px;
-            padding-left: 25px;
-            color: #4d566b;
-        }
-
-        .card li {
-            margin-bottom: 8px;
-        }
-
-        /* TARJETA IA */
-        .ia-card {
-            background: linear-gradient(135deg, #f0efff, #ffffff);
-            border-left: 5px solid #8b5cf6;
-        }
-
-        .ia-titulo {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            margin-bottom: 20px;
-        }
-
-        .ia-titulo span {
-            font-size: 28px;
-        }
-
-        .ia-titulo h3 {
+        .integrante p {
+            font-size: 13px;
+            color: #6f6877;
             margin: 0;
         }
 
-        .ia-item {
-            background: white;
-            padding: 15px 18px;
-            border-radius: 10px;
-            margin-top: 12px;
-            border: 1px solid #e5e3f7;
+        /* CLIENTE */
+        .cliente {
+            background: #fbf9fd;
+            border: 1px solid #e4dced;
+            border-radius: 15px;
+            padding: 20px;
         }
 
-        .ia-item strong {
-            color: #4f46a5;
+        /* OBJETIVOS */
+        .objetivos {
+            display: grid;
+            gap: 12px;
         }
 
-        /* PIE DE PÁGINA */
-        footer {
-            background: #292d49;
-            color: white;
-            text-align: center;
-            padding: 30px 20px;
-            margin-top: 60px;
+        .objetivo {
+            padding: 18px 20px;
+            border-left: 4px solid #8b68b4;
+            background: #fbf9fd;
+            border-radius: 0 12px 12px 0;
         }
 
-        footer p {
-            opacity: 0.8;
+        .objetivo strong {
+            color: #51367c;
+        }
+
+        /* DOS COLUMNAS */
+        .columnas {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .caja {
+            border: 1px solid #e4dced;
+            border-radius: 16px;
+            padding: 24px;
+            background: #fbf9fd;
+        }
+
+        .caja h3 {
+            margin-top: 0;
+        }
+
+        .incluido h3 {
+            color: #4d8b68;
+        }
+
+        .excluido h3 {
+            color: #a95b5b;
+        }
+
+        ul {
+            padding-left: 22px;
+        }
+
+        li {
+            margin: 6px 0;
+        }
+
+        /* TABLAS */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
             font-size: 14px;
         }
 
-        /* RESPONSIVE */
-        @media (max-width: 600px) {
+        th {
+            background: #51367c;
+            color: white;
+            text-align: left;
+            padding: 13px;
+        }
 
-            header {
-                padding: 50px 15px;
+        td {
+            border: 1px solid #e4dced;
+            padding: 13px;
+            vertical-align: top;
+        }
+
+        tr:nth-child(even) td {
+            background: #fbf9fd;
+        }
+
+        /* TECNOLOGÍAS */
+        .tecnologias {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-top: 18px;
+        }
+
+        .tecnologia {
+            border: 1px solid #e4dced;
+            border-radius: 15px;
+            padding: 20px;
+            background: #fbf9fd;
+        }
+
+        .tecnologia h3 {
+            margin: 0 0 8px;
+        }
+
+        .herramientas {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .herramientas span {
+            background: #f1ebf9;
+            color: #51367c;
+            border-radius: 20px;
+            padding: 8px 14px;
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        /* PIE */
+        footer {
+            background: #30223d;
+            color: #ddd4e7;
+            text-align: center;
+            padding: 30px 20px;
+            font-size: 13px;
+        }
+
+        /* CELULAR */
+        @media (max-width: 850px) {
+
+            .nav {
+                flex-direction: column;
             }
 
-            header h1 {
-                font-size: 32px;
+            nav {
+                justify-content: center;
             }
 
-            header p {
-                font-size: 16px;
+            .integrantes {
+                grid-template-columns: repeat(2, 1fr);
             }
 
-            .container {
-                width: 92%;
-                margin-top: 30px;
+            .columnas,
+            .tecnologias {
+                grid-template-columns: 1fr;
             }
 
-            .tema-titulo h2 {
-                font-size: 20px;
+            h1 {
+                font-size: 34px;
+            }
+        }
+
+        @media (max-width: 520px) {
+
+            .integrantes {
+                grid-template-columns: 1fr;
             }
 
-            .card {
-                padding: 22px;
+            section {
+                padding: 24px 19px;
+            }
+
+            .hero {
+                margin: 22px 12px;
+                padding: 40px 22px;
+            }
+
+            main {
+                padding: 0 12px 40px;
+            }
+
+            h1 {
+                font-size: 29px;
+            }
+
+            table {
+                font-size: 12px;
+                display: block;
+                overflow-x: auto;
             }
         }
     </style>
@@ -416,264 +376,369 @@ Figma: Para realizar los prototipos de las interfaces.
 
 <body>
 
-    <!-- ENCABEZADO -->
-    <header>
-        <div class="icono">💻</div>
+<!-- ==================== BARRA DE NAVEGACIÓN ==================== -->
 
-        <h1>Ingeniería de Software</h1>
+<header>
+    <div class="nav">
+
+        <div class="brand">
+            Ingeniería de Software · Trabajo Práctico
+        </div>
+
+        <nav>
+            <a href="#presentacion">Proyecto</a>
+            <a href="#problema">Problema</a>
+            <a href="#objetivos">Objetivos</a>
+            <a href="#alcance">Alcance</a>
+            <a href="#interesados">Interesados</a>
+            <a href="#viabilidad">Viabilidad</a>
+            <a href="#glosario">Glosario</a>
+            <a href="#riesgos">Riesgos</a>
+            <a href="#tecnologia">Tecnología</a>
+        </nav>
+
+    </div>
+</header>
 
 
-        </p>
-    </header>
+<!-- ==================== PORTADA ==================== -->
+
+<div class="hero">
+
+    <span class="tag">
+        ENTREGA 1 · CONCEPTUALIZACIÓN
+    </span>
+
+    <h1>
+        Sistema de Control de Inventario para un Minisúper
+    </h1>
+
+    <p>
+        Punto de partida: entender el problema y encuadrar el proyecto.
+    </p>
+
+</div>
 
 
-    <main class="container">
+<main>
 
-        <!-- INTRODUCCIÓN -->
-        <section class="intro">
-            <h2>Trabajo práctico 1</h2>
+<!-- ==================== 1. PRESENTACIÓN ==================== -->
 
-        </section>
+<section id="presentacion">
+
+    <span class="numero">01</span>
+
+    <h2>
+        Presentación del proyecto
+    </h2>
+
+    <div class="destacado">
+
+        <strong>Nombre del sistema:</strong><br>
+
+        Sistema de Control de Inventario para un Minisúper
+
+    </div>
 
 
-        <!-- TEMA 1 -->
-        <section class="tema">
+    <h3>
+        Integrantes del grupo
+    </h3>
 
-            <div class="tema-titulo">
-                <div class="tema-numero">01</div>
 
-                <h2>
-                    Ingeniería de Software: una visión previa
-                </h2>
+    <div class="integrantes">
+
+        <div class="integrante">
+
+            <div class="inicial">
+                JC
             </div>
 
+            <h3>
+                Javier Caceres
+            </h3>
 
-            <!-- PREGUNTA 1 -->
-            <article class="card">
+            <p>
+                Análisis de requisitos y documentación.
+            </p>
 
-                <h3>
-                    1. ¿Qué es la Ingeniería de Software?
-                </h3>
-
-                <p>
-                    La Ingeniería de Software es la disciplina que se encarga
-                    de planificar, diseñar, desarrollar, probar y mantener
-                    programas de manera organizada, buscando que sean de buena
-                    calidad, seguros y que cumplan con las necesidades de los
-                    usuarios.
-                </p>
-
-            </article>
+        </div>
 
 
-            <!-- PREGUNTA 2 -->
-            <article class="card">
+        <div class="integrante">
 
-                <h3>
-                    2. Diferencia entre programar y hacer Ingeniería de Software
-                </h3>
-
-                <p>
-                    Programar consiste principalmente en escribir código para
-                    solucionar un problema. En cambio, hacer Ingeniería de
-                    Software implica realizar todo el proceso, como analizar
-                    las necesidades del usuario, planificar el proyecto,
-                    diseñar el sistema, programarlo, probarlo y posteriormente
-                    mantenerlo.
-                </p>
-
-                <p style="margin-top: 12px;">
-                    Por ejemplo, una persona puede programar una aplicación
-                    para una tienda, pero hacer Ingeniería de Software significa
-                    además analizar qué necesita la tienda, diseñar cómo
-                    funcionará la aplicación, probarla y corregir errores.
-                </p>
-
-            </article>
-
-
-            <!-- PREGUNTA 3 -->
-            <article class="card">
-
-                <h3>
-                    3. ¿Por qué es necesaria la Ingeniería de Software?
-                </h3>
-
-                <ul>
-                    <li>
-                        Permite desarrollar sistemas de mejor calidad y con
-                        menos errores.
-                    </li>
-
-                    <li>
-                        Ayuda a organizar y controlar proyectos de software
-                        que pueden ser grandes y complejos.
-                    </li>
-                </ul>
-
-            </article>
-
-        </section>
-
-
-        <!-- TEMA 2 -->
-        <section class="tema">
-
-            <div class="tema-titulo">
-                <div class="tema-numero">02</div>
-
-                <h2>
-                    El rol de la IS en el diseño de sistemas
-                </h2>
+            <div class="inicial">
+                IF
             </div>
 
+            <h3>
+                Iliana Flecha
+            </h3>
 
-            <!-- PREGUNTA 4 -->
-            <article class="card">
+            <p>
+                Modelado y diseño del sistema.
+            </p>
 
-                <h3>
-                    4. Elementos de un sistema basado en computadora
-                </h3>
-
-                <p>
-                    Además del software, un sistema basado en computadora está
-                    conformado por:
-                </p>
-
-                <ul>
-                    <li>
-                        <strong>Hardware:</strong> computadoras, servidores,
-                        dispositivos y otros componentes físicos.
-                    </li>
-
-                    <li>
-                        <strong>Personas:</strong> usuarios y personas
-                        encargadas de desarrollar o administrar el sistema.
-                    </li>
-
-                    <li>
-                        <strong>Datos:</strong> información que el sistema
-                        almacena y procesa.
-                    </li>
-
-                    <li>
-                        <strong>Procedimientos:</strong> reglas y procesos que
-                        indican cómo debe utilizarse el sistema.
-                    </li>
-
-                    <li>
-                        <strong>Redes:</strong> medios que permiten la
-                        comunicación entre los diferentes dispositivos.
-                    </li>
-                </ul>
-
-            </article>
+        </div>
 
 
-            <!-- PREGUNTA 5 -->
-            <article class="card">
+        <div class="integrante">
 
-                <h3>
-                    5. Visión sistémica vs. visión aislada del software
-                </h3>
+            <div class="inicial">
+                VO
+            </div>
 
-                <p>
-                    La <strong>visión sistémica</strong> considera al software
-                    como parte de un sistema completo, teniendo en cuenta el
-                    hardware, los usuarios, los datos, las redes y los procesos.
-                </p>
+            <h3>
+                Vivian Obregon
+            </h3>
 
-                <p style="margin-top: 12px;">
-                    La <strong>visión aislada</strong> se enfoca solamente en
-                    el software y en su funcionamiento, sin considerar cómo se
-                    relaciona con los demás elementos del sistema.
-                </p>
+            <p>
+                Levantamiento de información y comunicación con el cliente.
+            </p>
 
-            </article>
+        </div>
 
 
-            <!-- PREGUNTA 6 -->
-            <article class="card ia-card">
+        <div class="integrante">
 
-                <div class="ia-titulo">
-                    <span>🤖</span>
+            <div class="inicial">
+                HS
+            </div>
 
-                    <h3>
-                        6. Inteligencia Artificial aplicada al desarrollo
-                        de software
-                    </h3>
-                </div>
+            <h3>
+                Hanna Salas
+            </h3>
 
+            <p>
+                Investigación tecnológica y gestión del proyecto.
+            </p>
 
-                <div class="ia-item">
+        </div>
 
-                    <strong>Herramienta elegida:</strong>
-
-                    <p>
-                        GitHub Copilot
-                    </p>
-
-                </div>
+    </div>
 
 
-                <div class="ia-item">
+    <h3>
+        Usuario / cliente real
+    </h3>
 
-                    <strong>¿Qué tarea del ingeniero de software apoya?</strong>
-
-                    <p>
-                        Ayuda a escribir código, sugerir funciones y completar
-                        partes de un programa, facilitando la tarea de
-                        programación.
-                    </p>
-
-                </div>
-
-
-                <div class="ia-item">
-
-                    <strong>Beneficio concreto:</strong>
-
-                    <p>
-                        Permite ahorrar tiempo al generar rápidamente código y
-                        sugerencias que el desarrollador puede revisar y
-                        utilizar.
-                    </p>
-
-                </div>
-
-
-                <div class="ia-item">
-
-                    <strong>Riesgo o desafío:</strong>
-
-                    <p>
-                        El código generado puede contener errores o no ser la
-                        mejor solución, por lo que el ingeniero debe revisarlo
-                        y probarlo antes de utilizarlo.
-                    </p>
-
-                </div>
-
-            </article>
-
-        </section>
-
-    </main>
-
-
-    <!-- PIE DE PÁGINA -->
-    <footer>
+    <div class="cliente">
 
         <p>
-            Ingeniería de Software · Trabajo práctico
+            El sistema será desarrollado para un minisúper administrado por la madre de una integrante del grupo.
+            Actualmente, el negocio realiza el control de sus productos de manera manual y las ventas se realizan
+            directamente en el establecimiento. No cuenta con una computadora ni con un sistema informático destinado
+            al control de inventario.
         </p>
 
         <p>
-            Desarrollo y diseño de sistemas
+            La propietaria será la principal cliente del proyecto y proporcionará información sobre la forma en que
+            actualmente administra los productos y las necesidades que presenta el negocio.
         </p>
 
-    </footer>
+    </div>
 
-</body>
-</html>
-```
+</section>
+
+
+<!-- ==================== 2. PROBLEMA ==================== -->
+
+<section id="problema">
+
+    <span class="numero">02</span>
+
+    <h2>
+        Definición del problema
+    </h2>
+
+    <p>
+        Actualmente, el minisúper realiza el control de sus productos de forma manual y no dispone de una herramienta
+        informática destinada a gestionar el inventario.
+    </p>
+
+    <p>
+        Esta situación dificulta mantener la información de los productos organizada y conocer de manera rápida la
+        cantidad disponible de cada artículo. También puede dificultar la identificación de productos que necesitan
+        ser repuestos.
+    </p>
+
+    <p>
+        La falta de un sistema de control de inventario hace necesario realizar una gestión manual de la información,
+        lo que puede generar dificultades para mantener actualizado el stock y llevar un seguimiento organizado de
+        los productos disponibles.
+    </p>
+
+    <div class="destacado">
+
+        Por este motivo, se plantea el desarrollo de un sistema que permita organizar y facilitar el control del
+        inventario del minisúper.
+
+    </div>
+
+</section>
+
+
+<!-- ==================== 3. OBJETIVOS ==================== -->
+
+<section id="objetivos">
+
+    <span class="numero">03</span>
+
+    <h2>
+        Propósito y objetivos
+    </h2>
+
+
+    <h3>
+        Objetivo general
+    </h3>
+
+    <div class="destacado">
+
+        Diseñar un sistema de control de inventario para un minisúper que permita gestionar de manera organizada
+        la información de los productos, controlar sus existencias y facilitar la identificación de productos que
+        necesitan reposición.
+
+    </div>
+
+
+    <h3>
+        Objetivos específicos
+    </h3>
+
+    <div class="objetivos">
+
+        <div class="objetivo">
+
+            <strong>1.</strong>
+
+            Registrar y mantener actualizada la información de los productos, incluyendo sus datos principales
+            y cantidad disponible.
+
+        </div>
+
+
+        <div class="objetivo">
+
+            <strong>2.</strong>
+
+            Controlar las entradas y salidas de productos para mantener actualizado el stock del minisúper.
+
+        </div>
+
+
+        <div class="objetivo">
+
+            <strong>3.</strong>
+
+            Facilitar la consulta del inventario, permitiendo identificar los productos disponibles y aquellos
+            que se encuentren por debajo del stock mínimo establecido.
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ==================== 4. ALCANCE ==================== -->
+
+<section id="alcance">
+
+    <span class="numero">04</span>
+
+    <h2>
+        Alcance del proyecto
+    </h2>
+
+    <p>
+        El sistema estará orientado al control y administración del inventario del minisúper.
+    </p>
+
+
+    <div class="columnas">
+
+        <!-- INCLUIDO -->
+
+        <div class="caja incluido">
+
+            <h3>
+                ✓ 4.1 Funcionalidades incluidas
+            </h3>
+
+            <p>
+                La primera versión del sistema permitirá:
+            </p>
+
+            <ul>
+
+                <li>Registrar productos.</li>
+
+                <li>Modificar los datos de los productos.</li>
+
+                <li>Desactivar productos que ya no se comercialicen.</li>
+
+                <li>Consultar y buscar productos.</li>
+
+                <li>Registrar la cantidad disponible de cada producto.</li>
+
+                <li>Registrar entradas de productos.</li>
+
+                <li>Registrar salidas de productos.</li>
+
+                <li>Actualizar las cantidades disponibles.</li>
+
+                <li>Establecer un nivel mínimo de stock.</li>
+
+                <li>Identificar productos con bajo stock.</li>
+
+                <li>Consultar el estado actual del inventario.</li>
+
+            </ul>
+
+        </div>
+
+
+        <!-- FUERA DEL ALCANCE -->
+
+        <div class="caja excluido">
+
+            <h3>
+                ✕ 4.2 Fuera del alcance
+            </h3>
+
+            <p>
+                Para mantener un alcance realista, la primera versión no incluirá:
+            </p>
+
+            <ul>
+
+                <li>Registro y gestión de ventas.</li>
+
+                <li>Compras en línea.</li>
+
+                <li>Servicio de delivery.</li>
+
+                <li>Pagos electrónicos.</li>
+
+                <li>Facturación electrónica.</li>
+
+                <li>Gestión de múltiples sucursales.</li>
+
+                <li>Aplicación móvil.</li>
+
+                <li>Integración automática con proveedores.</li>
+
+                <li>Control contable del negocio.</li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+
+    <div class="destacado">
+
+        Estas funcionalidades podrían considerarse en futuras versiones del sistema, pero no forman parte del
+        alcance inicial
