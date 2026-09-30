@@ -13,7 +13,7 @@ layout: default
 
 ## 1. Presentación del proyecto
 
-**Nombre del sistema:** [nombre]
+**Nombre del sistema:** [Sistema de Control de Inventario para un Minisúper]
 
 **Integrantes del grupo:**
 
