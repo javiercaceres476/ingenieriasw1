@@ -155,10 +155,16 @@ En esta etapa se presenta una visión general de la solución. Los detalles téc
 
 | Término | Definición |
 |---|---|
-| [Término 1] | [definición en el contexto del negocio] |
-| [Término 2] | [definición en el contexto del negocio] |
-| [Término 3] | [definición en el contexto del negocio] |
-
+| [Producto] | [Artículo disponible en el minisúper para su comercialización] |
+| [Inventario] | [Conjunto de productos disponibles y registrados en el minisúper.] |
+| [Stock] | [Cantidad disponible de un determinado producto] |
+| [Entrada] | [Registro de productos que ingresan al inventario, por ejemplo, debido a una reposición.] |
+| [Salida] | [Registro de productos que disminuyen la cantidad disponible del inventario.] |
+| [Stock mínimo] | [Cantidad mínima establecida para un producto antes de considerarlo con bajo stock.] |
+| [Bajo stock] | [Estado de un producto cuya cantidad disponible se encuentra por debajo del nivel mínimo establecido] |
+| [Reposición] | [Proceso mediante el cual se incorporan nuevos productos al inventario para aumentar su disponibilidad] |
+| [Usuario] | [Persona autorizada para acceder y utilizar el sistema] |
+| [Administrador] | [Usuario encargado de gestionar la información y las operaciones principales del sistema] |
 ---
 
 ## 9. Riesgos iniciales
