@@ -22,7 +22,7 @@ layout: default
 | Javier Caceres | Análisis de requisitos y documentación. |
 | Iliana Flecha | Modelado y diseño del sistema.|
 | Vivian Obregon | Levantamiento de información y comunicación con el cliente. |
-| Hanna Salas | Investigación tecnológica y gestión del proyecto. |
+| Hanna Salas | Investigación tecnológica y gestión del proyecto. | 
 
 **Usuario / cliente real:** 
 El sistema será desarrollado para un minisúper administrado por la madre de una integrante del grupo.
