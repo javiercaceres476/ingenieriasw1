@@ -145,7 +145,11 @@ La implementación podrá realizarse inicialmente utilizando los recursos tecnol
 
 [Descripción breve, en lenguaje llano y sin detalle técnico, de cómo el grupo imagina que el sistema resolverá el problema planteado.]
 
----
+---Se propone desarrollar un sistema informático que permita centralizar y organizar la información relacionada con el inventario del minisúper.
+El sistema permitirá registrar los productos, consultar sus datos, controlar las cantidades disponibles y registrar los movimientos de entrada y salida de productos.
+Además, permitirá establecer niveles mínimos de stock para identificar aquellos productos cuya cantidad disponible sea baja y requiera reposición.
+La solución estará orientada principalmente a la propietaria y a las personas autorizadas para utilizar el sistema, buscando que puedan gestionar el inventario de manera sencilla y organizada.
+En esta etapa se presenta una visión general de la solución. Los detalles técnicos y modelos específicos serán desarrollados en las siguientes entregas
 
 ## 8. Glosario de términos
 
