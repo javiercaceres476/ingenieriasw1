@@ -19,30 +19,30 @@ layout: default
 
 | Nombre | Rol |
 |---|---|
-| [Javier Caceres] | [Análisis de requisitos y documentación.] |
-| [Iliana Flecha] | [Modelado y diseño del sistema.] |
-| [Vivian Obregon] | [Levantamiento de información y comunicación con el cliente.] |
-| [Hanna Salas] | [Investigación tecnológica y gestión del proyecto.] |
+| Javier Caceres | Análisis de requisitos y documentación. |
+| Iliana Flecha | Modelado y diseño del sistema.|
+| Vivian Obregon | Levantamiento de información y comunicación con el cliente. |
+| Hanna Salas | Investigación tecnológica y gestión del proyecto. |
 
 **Usuario / cliente real:** 
-[El sistema será desarrollado para un minisúper administrado por la madre de una integrante del grupo.
+El sistema será desarrollado para un minisúper administrado por la madre de una integrante del grupo.
 Actualmente, el negocio realiza el control de sus productos de manera manual y las ventas se realizan directamente en el establecimiento. No cuenta con una computadora ni con un sistema informático destinado al control de inventario.
-La propietaria será la principal cliente del proyecto y proporcionará información sobre la forma en que actualmente administra los productos y las necesidades que presenta el negocio.]
+La propietaria será la principal cliente del proyecto y proporcionará información sobre la forma en que actualmente administra los productos y las necesidades que presenta el negocio.
 
 ## 2. Definición del problema
-[Actualmente, el minisúper realiza el control de sus productos de forma manual y no dispone de una herramienta informática destinada a gestionar el inventario.
+Actualmente, el minisúper realiza el control de sus productos de forma manual y no dispone de una herramienta informática destinada a gestionar el inventario.
 Esta situación dificulta mantener la información de los productos organizada y conocer de manera rápida la cantidad disponible de cada artículo. También puede dificultar la identificación de productos que necesitan ser repuestos.
 La falta de un sistema de control de inventario hace necesario realizar una gestión manual de la información, lo que puede generar dificultades para mantener actualizado el stock y llevar un seguimiento organizado de los productos disponibles.
-Por este motivo, se plantea el desarrollo de un sistema que permita organizar y facilitar el control del inventario del minisúper.]
+Por este motivo, se plantea el desarrollo de un sistema que permita organizar y facilitar el control del inventario del minisúper.
 
 ## 3. Propósito y objetivos
 **Objetivo general:**
-[Diseñar un sistema de control de inventario para un minisúper que permita gestionar de manera organizada la información de los productos, controlar sus existencias y facilitar la identificación de productos que necesitan reposición.]
+Diseñar un sistema de control de inventario para un minisúper que permita gestionar de manera organizada la información de los productos, controlar sus existencias y facilitar la identificación de productos que necesitan reposición.
 
 **Objetivos específicos:**
-1. [Registrar y mantener actualizada la información de los productos, incluyendo sus datos principales y cantidad disponible.]
-2. [Controlar las entradas y salidas de productos para mantener actualizado el stock del minisúper.]
-3. [Facilitar la consulta del inventario, permitiendo identificar los productos disponibles y aquellos que se encuentren por debajo del stock mínimo establecido.]
+1. Registrar y mantener actualizada la información de los productos, incluyendo sus datos principales y cantidad disponible.
+2. Controlar las entradas y salidas de productos para mantener actualizado el stock del minisúper.
+3. Facilitar la consulta del inventario, permitiendo identificar los productos disponibles y aquellos que se encuentren por debajo del stock mínimo establecido.
 
 
 ## 4. Alcance del proyecto
