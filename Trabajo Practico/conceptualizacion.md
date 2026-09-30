@@ -179,13 +179,17 @@ En esta etapa se presenta una visión general de la solución. Los detalles téc
 ---
 
 ## 10. Selección tecnológica preliminar
-
+La selección tecnológica es preliminar y podrá ser ajustada durante las etapas de análisis y diseño.
 | Componente | Elección | Justificación breve |
 |---|---|---|
-| Lenguaje de programación | [ej. Python / Java / TypeScript] | [por qué] |
-| Framework | [ej. Django / Spring Boot / React] | [por qué] |
-| Base de datos | [ej. PostgreSQL / MongoDB] | [por qué] |
-
+| Lenguaje de programación | Java | Se propone Java debido a que permite desarrollar aplicaciones utilizando programación orientada a objetos y facilita la organización del sistema mediante clases y componentes. |
+| Framework | Spring Boot | Se propone utilizar Spring Boot para facilitar el desarrollo de la aplicación y permitir una estructura organizada para sus diferentes componentes. |
+| Base de datos | MySQL | Se propone utilizar MySQL para almacenar la información de los productos, las cantidades disponibles y los movimientos de inventario. |
+Herramientas complementarias
+Github: Para almacenar y gestionar el proyecto.
+Github Pages: Para publicar las entregas del trabajo.
+Draw.io: Para elaborar los diagramas del sistema.
+Figma: Para realizar los prototipos de las interfaces.
 ---
 
 [← Volver al inicio](index.md) · [Siguiente: Análisis →](analisis.md)
