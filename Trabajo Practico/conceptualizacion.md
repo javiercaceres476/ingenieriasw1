@@ -1,8 +1,3 @@
----
-title: "Conceptualización"
-layout: default
----
-
 [← Volver al inicio](index.md)
 
 # Entrega 1 · Conceptualización
@@ -47,35 +42,96 @@ Diseñar un sistema de control de inventario para un minisúper que permita gest
 
 ## 4. Alcance del proyecto
 
-**Incluye (dentro del alcance):**
 
-- [Funcionalidad / módulo 1]
-- [Funcionalidad / módulo 2]
+El sistema estará orientado al control y administración del inventario del minisúper.
 
-**No incluye (fuera de alcance):**
+4.1 Funcionalidades incluidas
 
-- [Aspecto explícitamente excluido 1]
-- [Aspecto explícitamente excluido 2]
+La primera versión del sistema permitirá:
+
+* Registrar productos.
+* Modificar los datos de los productos.
+* Desactivar productos que ya no se comercialicen.
+* Consultar y buscar productos.
+* Registrar la cantidad disponible de cada producto.
+* Registrar entradas de productos.
+* Registrar salidas de productos.
+* Actualizar las cantidades disponibles.
+* Establecer un nivel mínimo de stock.
+* Identificar productos con bajo stock.
+* Consultar el estado actual del inventario.
+
+4.2 Fuera del alcance
+
+Para mantener un alcance realista, la primera versión no incluirá:
+
+* Registro y gestión de ventas.
+* Compras en línea.
+* Servicio de delivery.
+* Pagos electrónicos.
+* Facturación electrónica.
+* Gestión de múltiples sucursales.
+* Aplicación móvil.
+* Integración automática con proveedores.
+* Control contable del negocio.
+
+Estas funcionalidades podrían considerarse en futuras versiones del sistema, pero no forman parte del alcance inicial del proyecto.
 
 ---
 
 ## 5. Interesados (stakeholders)
+5.1 Propietaria del minisúper
 
-| Interesado | Descripción | Interés en el proyecto |
-|---|---|---|
-| [Usuario final] | [quién es] | [qué espera del sistema] |
-| [Cliente] | [quién es] | [qué espera del sistema] |
-| [Administrador del sistema] | [quién es] | [qué espera del sistema] |
+Es la principal interesada y cliente del sistema. Se encarga de la administración general del negocio.
+
+Interés: disponer de una herramienta que facilite el control y organización del inventario.
+
+5.2 Personal encargado de la atención
+
+Son las personas que colaboran en la atención del minisúper y pueden necesitar consultar o actualizar información relacionada con los productos.
+
+Interés: acceder de manera sencilla a la información del inventario y mantener actualizadas las cantidades disponibles.
+
+5.3 Administrador del sistema
+
+Será el usuario encargado de administrar la información principal del sistema.
+
+Interés: registrar, modificar y controlar los productos y el inventario.
+
+5.4 Clientes del minisúper
+
+Son las personas que adquieren los productos disponibles en el establecimiento.
+
+Interés: encontrar los productos disponibles y recibir una atención más organizada.
 
 ---
 
 ## 6. Justificación / viabilidad
+6.1 Justificación
 
-**Viabilidad técnica:** [¿el grupo cuenta con el conocimiento o puede adquirirlo?]
+El proyecto surge a partir de una necesidad real de un minisúper que actualmente realiza el control de sus productos de manera manual.
 
-**Viabilidad operativa:** [¿el usuario/cliente podrá usar y mantener el sistema?]
+La implementación de un sistema de control de inventario permitirá organizar la información de los productos y facilitar el seguimiento de las cantidades disponibles. Esto puede ayudar a la propietaria a conocer con mayor facilidad el estado de su inventario y detectar productos que necesitan reposición.
 
-**Viabilidad económica (alto nivel):** [¿es razonable en términos de costo/esfuerzo para el contexto del proyecto?]
+Además, al tratarse de un negocio real, el grupo podrá obtener información directamente de la cliente y validar que la propuesta responda a sus necesidades.
+
+6.2 Viabilidad técnica
+
+El proyecto es técnicamente viable, ya que puede desarrollarse utilizando herramientas y tecnologías disponibles para el grupo.
+
+El sistema puede utilizar una base de datos relacional para almacenar la información de los productos y sus movimientos de inventario.
+
+6.3 Viabilidad operativa
+
+El sistema estará diseñado considerando las actividades habituales del minisúper y procurando que su utilización sea sencilla para las personas encargadas del negocio.
+
+La propietaria podrá participar durante el análisis para validar las necesidades y el funcionamiento esperado del sistema.
+
+6.4 Viabilidad económica
+
+El proyecto es económicamente viable debido a que puede desarrollarse utilizando herramientas de software gratuitas o de bajo costo.
+
+La implementación podrá realizarse inicialmente utilizando los recursos tecnológicos disponibles y, posteriormente, analizar la necesidad de adquirir un equipo destinado exclusivamente al sistema.
 
 ---
 
