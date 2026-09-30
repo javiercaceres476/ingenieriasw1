@@ -176,6 +176,7 @@ En esta etapa se presenta una visión general de la solución. Los detalles téc
 | Falta de tiempo. | El proyecto debe desarrollarse dentro del periodo establecido por la asignatura. | Mantener un alcance limitado y priorizar las funciones principales del control de inventario. |
 | Dificultades en la adopción del sistema. | Al tratarse de un negocio que actualmente trabaja de forma manual, puede existir cierta dificultad inicial para adaptarse a una herramienta informática. | Diseñar una interfaz sencilla y considerar las necesidades y conocimientos tecnológicos de las personas que utilizarán el sistema. |
 | Falta de equipamiento. | Actualmente el minisuper no dispone de una computadora destinada al control del inventario. | Considerar durante el diseño las alternativas de equipamientos necesarias para utilizar el sistema y seleccionar una solución que no requiera infraestructura excesivamente costosa. |
+
 ---
 
 ## 10. Selección tecnológica preliminar
@@ -185,6 +186,9 @@ La selección tecnológica es preliminar y podrá ser ajustada durante las etapa
 | Lenguaje de programación | Java | Se propone Java debido a que permite desarrollar aplicaciones utilizando programación orientada a objetos y facilita la organización del sistema mediante clases y componentes. |
 | Framework | Spring Boot | Se propone utilizar Spring Boot para facilitar el desarrollo de la aplicación y permitir una estructura organizada para sus diferentes componentes. |
 | Base de datos | MySQL | Se propone utilizar MySQL para almacenar la información de los productos, las cantidades disponibles y los movimientos de inventario. |
+
+---
+
 Herramientas complementarias
 Github: Para almacenar y gestionar el proyecto.
 Github Pages: Para publicar las entregas del trabajo.
