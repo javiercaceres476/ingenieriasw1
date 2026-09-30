@@ -189,11 +189,16 @@ La selección tecnológica es preliminar y podrá ser ajustada durante las etapa
 
 ---
 
-Herramientas complementarias
+Herramientas complementarias:
+
 Github: Para almacenar y gestionar el proyecto.
+
 Github Pages: Para publicar las entregas del trabajo.
+
 Draw.io: Para elaborar los diagramas del sistema.
+
 Figma: Para realizar los prototipos de las interfaces.
+
 ---
 
 [← Volver al inicio](index.md) · [Siguiente: Análisis →](analisis.md)
