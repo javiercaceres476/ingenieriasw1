@@ -86,17 +86,20 @@ Es la principal interesada y cliente del sistema. Se encarga de la administraci�
 
 Interés: disponer de una herramienta que facilite el control y organización del inventario.
 
+
 5.2 Personal encargado de la atención
 
 Son las personas que colaboran en la atención del minisúper y pueden necesitar consultar o actualizar información relacionada con los productos.
 
 Interés: acceder de manera sencilla a la información del inventario y mantener actualizadas las cantidades disponibles.
 
+
 5.3 Administrador del sistema
 
 Será el usuario encargado de administrar la información principal del sistema.
 
 Interés: registrar, modificar y controlar los productos y el inventario.
+
 
 5.4 Clientes del minisúper
 
@@ -115,17 +118,20 @@ La implementación de un sistema de control de inventario permitirá organizar l
 
 Además, al tratarse de un negocio real, el grupo podrá obtener información directamente de la cliente y validar que la propuesta responda a sus necesidades.
 
+
 6.2 Viabilidad técnica
 
 El proyecto es técnicamente viable, ya que puede desarrollarse utilizando herramientas y tecnologías disponibles para el grupo.
 
 El sistema puede utilizar una base de datos relacional para almacenar la información de los productos y sus movimientos de inventario.
 
+
 6.3 Viabilidad operativa
 
 El sistema estará diseñado considerando las actividades habituales del minisúper y procurando que su utilización sea sencilla para las personas encargadas del negocio.
 
 La propietaria podrá participar durante el análisis para validar las necesidades y el funcionamiento esperado del sistema.
+
 
 6.4 Viabilidad económica
 
