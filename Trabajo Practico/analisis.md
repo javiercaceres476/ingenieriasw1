@@ -48,33 +48,96 @@ layout: default
 ## 3. Modelo de casos de uso
 
 **Diagrama de casos de uso:
-`[Insertar imagen: diagramas/casos-de-uso.png]`
+https://ibb.co/zTdGxFc9
 
 **Especificación de casos de uso principales:**
 
-### CU-01 · [Nombre del caso de uso]
+### CU-01 · [StockMiniSuper.html]
 
-- **Actor(es):** [actor principal / secundarios]
-- **Precondición:** [qué debe cumplirse antes]
+- **Actor(es):** [Administrador y Encargado]
+- **Precondición:** [El usuario debe estar registrado y activo en el sistema]
 - **Flujo principal:**
-  1. [Paso 1]
-  2. [Paso 2]
-  3. [Paso 3]
-- **Flujos alternativos:** [qué pasa si algo falla o se desvía]
-- **Postcondición:** [estado del sistema al finalizar]
+  1. [El usuario ingresa su nombre de usuario y constraseña]
+  2. [El sistema recibe y valida las credenciales.]
+  3. [El sistema identifica el rol asignado al usuario]
+  4. [El sistema muestra el menú principal e las opciones permitidas para ese rol.]
+- **Flujos alternativos:** [Si las credenciales son incorrectas, el sistema informa el error y permite volver a intentarlo. Si el usuario está desactivado, el sistema deniega el acceso]
+- **Postcondición:** [El usuario queda autenticado y puede utilizar las funciones autorizadas según su rol.]
 
 *(Repetir esta estructura para cada caso de uso principal.)*
+CU-01 · Iniciar sesión
 
----
+Actor(es): Administrador y Encargado.
+Precondición: El usuario debe estar registrado y activo.
+Flujo principal:
+El usuario ingresa su nombre de usuario y contraseña.
+El sistema valida las credenciales.
+El sistema identifica el rol del usuario y muestra el menú correspondiente.
+Flujos alternativos: Si las credenciales son incorrectas, informa el error y permite reintentar. Si el usuario está desactivado, deniega el acceso.
+Postcondición: El usuario queda autenticado con los permisos correspondientes a su rol.
+
+CU-02 · Registrar producto
+Actor(es): Administrador.
+Precondición: El Administrador inició sesión.
+Flujo principal:
+El Administrador selecciona “Nuevo producto”.
+Ingresa código, nombre, categoría, unidad de medida, stock mínimo y cantidad inicial.
+El sistema valida los datos y comprueba que el código sea único.
+El sistema guarda el producto como activo.
+El sistema confirma el registro.
+Flujos alternativos: Si el código ya existe, informa el problema. Si faltan datos o hay cantidades negativas, solicita corregirlos y no guarda el producto.
+Postcondición: El producto queda registrado, activo y con su stock inicial.
+
+CU-06 · Registrar entrada
+Actor(es): Administrador y Encargado.
+Precondición: Sesión iniciada; el producto existe y está activo.
+Flujo principal:
+El usuario selecciona “Registrar entrada”.
+Busca y selecciona el producto.
+Ingresa la cantidad recibida y una observación opcional.
+El sistema valida que la cantidad sea mayor que cero.
+El sistema registra fecha, usuario, producto y cantidad.
+El sistema suma la cantidad al stock y muestra el nuevo total.
+Flujos alternativos: Si la cantidad es cero o negativa, solicita corregirla. Si el producto está desactivado, rechaza el movimiento.
+Postcondición: El stock aumenta y la entrada queda guardada en el historial.
+
+CU-07 · Registrar salida
+Actor(es): Administrador y Encargado.
+Precondición: Sesión iniciada; el producto existe y está activo.
+Flujo principal:
+El usuario selecciona “Registrar salida”.
+Busca y selecciona el producto.
+Ingresa la cantidad y el motivo: venta, merma o vencimiento, o ajuste.
+El sistema valida que la cantidad sea mayor que cero y no supere el stock disponible.
+El sistema registra el movimiento con fecha, usuario, producto, cantidad y motivo.
+El sistema resta la cantidad al stock.
+El sistema muestra el nuevo stock y alerta si queda por debajo del mínimo.
+Flujos alternativos: Si la cantidad supera el stock, rechaza la salida e informa la existencia actual. Si la cantidad no es válida, solicita corregirla. Si falta el motivo, solicita seleccionarlo. Si el producto está desactivado, no permite el movimiento.
+Postcondición: El stock disminuye y la salida queda en el historial; se muestra una alerta si corresponde.
+
+CU-08 · Consultar productos con bajo stock
+Actor(es): Administrador y Encargado.
+Precondición: El usuario inició sesión.
+Flujo principal:
+El usuario selecciona “Bajo stock”.
+El sistema compara el stock disponible de cada producto activo con su stock mínimo.
+El sistema muestra los productos por debajo del mínimo, indicando cantidad actual, mínimo y diferencia.
+Flujos alternativos: Si ningún producto está por debajo del mínimo, informa que el inventario está al día.
+Postcondición: El usuario identifica los productos que necesitan reposición.
 
 ## 4. Modelo de dominio
 
 **Diagrama de clases conceptual:**
 
-`[Insertar imagen: diagramas/modelo-dominio.png]`
+https://ibb.co/zTdGxFc9
+
 
 [Breve descripción de las entidades principales del negocio y cómo se relacionan entre sí, sin detalles de implementación.]
 
+El Producto es la entidad principal del sistema, ya que representa los artículos que forman parte del inventario del minisúper. Cada producto pertenece a una Categoría y posee una cantidad disponible y un stock mínimo establecido.
+Los cambios en el inventario se registran mediante la entidad *Movimiento, que puede representar una Entrada o una Salida de productos. Las entradas aumentan las existencias, mientras que las salidas las disminuyen según el motivo correspondiente.
+Cada movimiento es registrado por un Usuario, quien tiene asignado un Rol (Administrador o Encargado). El rol determina las funciones y permisos que puede realizar dentro del sistema.
+De esta manera, las entidades se relacionan para mantener un control organizado de los productos, las existencias y el historial de movimientos del inventario.
 ---
 
 ## 5. Diagramas de comportamiento
