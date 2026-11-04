@@ -81,7 +81,7 @@ layout: default
 
 **Registrar salida CU-07:**
 
-`[Insertar imagen: diagramas/secuencia-flujo-principal.png]`
+https://drive.google.com/file/d/1-yo7c5Dkn185auy4iR5a2mEY62gRTj8-/view?usp=drivesdk
 
 El flujo muestra que el sistema valida contra el stock antes de guardar, y que el movimiento y la actualización del stock se guardan juntos.
 
@@ -93,24 +93,25 @@ El flujo muestra que el sistema valida contra el stock antes de guardar, y que e
 
 **Pantalla - Inicio de sesión**
 
-[Mockup de inicio de sesión](diagramas/mockup-login.png)
+(https://drive.google.com/file/d/1UFgL355JhnZDMwFOiXMElk17j8pfwTC4/view?usp=drivesdk)
 
 El usuario ingresa su nombre de usuario y contraseña; el sistema muestra el menú principal según su rol (Administrador o Encargado).
 
 **Pantalla — Inventario actual (CU-05 y CU-09):**
 
-![Mockup del inventario actual](diagramas/mockup-inventario.png)
+https://drive.google.com/file/d/17sLUJLF0lNNEZqm5ot2ywrOMlY0Usz0E/view?usp=drivesdk
 
 Permite buscar productos por nombre, código o categoría y ver de un vistazo su stock, su mínimo y su estado. Los productos con bajo stock se resaltan en rojo. Desde esta pantalla se accede a registrar entradas y salidas.
 
 **Pantalla — Registrar salida (CU-07):**
 
-![Mockup de registrar salida](diagramas/mockup-registrar-salida.png)
+https://drive.google.com/file/d/1X9aYZMo-wzGgiQGIfiyqOpweQmZwKM0O/view?usp=drivesdk
 
 Permite registrar una salida eligiendo el producto, la cantidad y el motivo (venta, merma o vencimiento, ajuste). El panel lateral muestra el stock actual, el mínimo y el stock resultante, y advierte si el producto quedará por debajo del mínimo.
 
 **Pantalla - Productos con bajo stock (CU-08):**
  
+https://drive.google.com/file/d/1UFgL355JhnZDMwFOiXMElk17j8pfwTC4/view?usp=drivesdk
 
 Lista los productos por debajo del stock mínimo, con la cantidad que falta para llegar al mínimo, y permite pasar de directamente a registrar una entrada de reposición.
 
