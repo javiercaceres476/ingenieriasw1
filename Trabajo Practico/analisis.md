@@ -135,7 +135,7 @@ https://ibb.co/zTdGxFc9
 [Breve descripción de las entidades principales del negocio y cómo se relacionan entre sí, sin detalles de implementación.]
 
 El Producto es la entidad principal del sistema, ya que representa los artículos que forman parte del inventario del minisúper. Cada producto pertenece a una Categoría y posee una cantidad disponible y un stock mínimo establecido.
-Los cambios en el inventario se registran mediante la entidad *Movimiento, que puede representar una Entrada o una Salida de productos. Las entradas aumentan las existencias, mientras que las salidas las disminuyen según el motivo correspondiente.
+Los cambios en el inventario se registran mediante la entidad Movimiento, que puede representar una Entrada o una Salida de productos. Las entradas aumentan las existencias, mientras que las salidas las disminuyen según el motivo correspondiente.
 Cada movimiento es registrado por un Usuario, quien tiene asignado un Rol (Administrador o Encargado). El rol determina las funciones y permisos que puede realizar dentro del sistema.
 De esta manera, las entidades se relacionan para mantener un control organizado de los productos, las existencias y el historial de movimientos del inventario.
 ---
