@@ -15,10 +15,18 @@ layout: default
 
 | ID | Requisito | Prioridad |
 |---|---|---|
-| RF-01 | [El sistema debe permitir...] | Alta |
-| RF-02 | [El sistema debe permitir...] | Alta |
-| RF-03 | [El sistema debe permitir...] | Media |
-| RF-04 | [El sistema debe permitir...] | Baja |
+| RF-01 | El sistema debe permitir registrar productos con código, nombre, categoría, unidad de medida y stock mínimo. | Alta |
+| RF-02 | El sistema debe permitir modificar los datos de un producto existente, incluido su stock mínimo.  | Alta |
+| RF-03 | El sistema debe permitir desactivar productos que ya no se comercialicen, sin eliminarlos del historial. | Media |
+| RF-04 | El sistema debe permitir consultar y buscar productos por nombre, código o categoría. | Alta |
+| RF-05 | El sistema debe permitir registrar entradas de productos (reposición) indicando producto, cantidad y fecha. | Alta |
+| RF-06 | El sistema debe permitir registrar salidas de productos indicando producto, cantidad y motivo (venta, merma o vencimiento, ajuste). | Alta |
+| RF-07 | El sistema debe actualizar automáticamente la cantidad disponible de un producto al registrar una entrada o una salida. | Alta |
+| RF-08 | El sistema debe identificar y listar los productos cuya cantidad disponible esté por debajo de su stock mínimo.. | Alta |
+| RF-09 | El sistema debe permitir consultar el estado actual del inventario (producto, cantidad disponible y estado). | Alta |
+| RF-10 | El sistema debe permitir consultar el historial de movimientos (entradas y salidas) por producto y por rango de fechas. | Media |
+| RF-11 | El sistema debe requerir inicio de sesión y limitar las funciones según el rol del usuario (Administrador o Encargado).  | Alta |
+| RF-12 | El sistema debe permitir al administrador gestionar los usuarios autorizados (crear, desactivar y asignar rol). | Media |
 
 ---
 
@@ -26,16 +34,20 @@ layout: default
 
 | ID | Requisito | Categoría |
 |---|---|---|
-| RNF-01 | [ej. El sistema debe responder en menos de 2s] | Rendimiento |
-| RNF-02 | [ej. Las contraseñas deben almacenarse cifradas] | Seguridad |
-| RNF-03 | [ej. La interfaz debe ser utilizable sin capacitación previa] | Usabilidad |
+| RNF-01 | Las consultas y el registro de movimientos deben responder en menos de 2 segundos con hasta 5.000 productos. | Rendimiento |
+| RNF-02 | Las contraseñas deben almacenarse cifradas (hash con sal) y las funciones deben protegerse según el rol.  | Seguridad |
+| RNF-03 | La interfaz debe poder usarse sin capacitación previa extensa: un movimiento debe poder registrarse en no más de 3 pasos.  | Usabilidad |
+| RNF-04 | El sistema debe ser accesible desde un navegador web común, sin instalar software adicional en equipo.| Portabilidad |
+| RNF-05 | Un movimiento y la actualización del stock deben guardarse en conjunto (transacción) para evitar inconsistencias. | Integridad |
+| RNF-06 | El sistema debe permitir realizar copias de seguridad de la base de datos. | Disponibilidad |
+| RNF-07 | El sistema debe funcionar con recursos modestos (un solo equipo), dado que el negocio no cuenta con infraestructura propia. | Eficiencia de costos |
+| RNF-08 |  El código y la base de datos deben estar organizados para poder incorporar luego nuevas funciones (por ejemplo, ventas). | Mantenibilidad |
 
 ---
 
 ## 3. Modelo de casos de uso
 
-**Diagrama de casos de uso:**
-
+**Diagrama de casos de uso:
 `[Insertar imagen: diagramas/casos-de-uso.png]`
 
 **Especificación de casos de uso principales:**
