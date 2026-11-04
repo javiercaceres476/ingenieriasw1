@@ -334,7 +334,7 @@ nav a.activo{text-decoration:underline}
 </div>
 
 <h3>2.1 Diagrama de casos de uso</h3>
-<img class="diagrama" src="Diagrama/casos-de-uso.png" alt="Diagrama de casos de uso">
+<img class="diagrama" data-img="casos-de-uso" src="Diagrama/casos-de-uso.png" alt="Diagrama de casos de uso">
 
 <table>
 <thead><tr><th>Caso de uso</th><th>Administrador</th><th>Encargado</th></tr></thead>
@@ -406,7 +406,7 @@ nav a.activo{text-decoration:underline}
 <section id="dominio">
 <span class="numero">03</span>
 <h2>Modelo de dominio</h2>
-<img class="diagrama" src="Diagrama/modelo-dominio.png" alt="Diagrama de clases conceptual" style="max-width:480px">
+<img class="diagrama" data-img="modelo-dominio" src="Diagrama/modelo-dominio.png" alt="Diagrama de clases conceptual" style="max-width:480px">
 <p>El <strong>Producto</strong> es el centro del dominio: tiene una cantidad disponible (stock) y un stock mínimo. Cada cambio en esa cantidad se origina en un <strong>Movimiento</strong>, que puede ser una <strong>Entrada</strong> (reposición) o una <strong>Salida</strong> (con su motivo). Cada movimiento lo registra un <strong>Usuario</strong>, cuyo <strong>Rol</strong> define qué puede hacer. Los productos se agrupan en <strong>Categorías</strong>. Los términos coinciden con el glosario de la Conceptualización.</p>
 </section>
 
@@ -414,7 +414,7 @@ nav a.activo{text-decoration:underline}
 <span class="numero">04</span>
 <h2>Diagramas de comportamiento</h2>
 <h3>Diagrama de secuencia: registrar salida (CU-07)</h3>
-<img class="diagrama" src="Diagrama/secuencia-registrar-salida.png" alt="Diagrama de secuencia de registrar salida" style="max-width:640px">
+<img class="diagrama" data-img="secuencia-registrar-salida" src="Diagrama/secuencia-registrar-salida.png" alt="Diagrama de secuencia de registrar salida" style="max-width:640px">
 <p>El sistema valida la cantidad contra el stock antes de guardar, y el movimiento y la actualización del stock se guardan juntos. Si el stock queda por debajo del mínimo, se muestra una alerta.</p>
 </section>
 
@@ -424,19 +424,19 @@ nav a.activo{text-decoration:underline}
 <div class="destacado">Prototipos de las pantallas principales del sistema (nombre provisional: StockMini). Los de alta fidelidad en Figma se presentarán en la Entrega 3.</div>
 
 <h3>Pantalla: inicio de sesión (CU-01)</h3>
-<img class="diagrama" src="Diagrama/mockup-login.png" alt="Mockup de inicio de sesión" style="max-width:100%">
+<img class="diagrama" data-img="mockup-login" src="Diagrama/mockup-login.png" alt="Mockup de inicio de sesión" style="max-width:100%">
 <p>El usuario ingresa su nombre de usuario y contraseña; el sistema muestra el menú según su rol.</p>
 
 <h3>Pantalla: inventario actual (CU-05 y CU-09)</h3>
-<img class="diagrama" src="Diagrama/mockup-inventario.png" alt="Mockup del inventario actual">
+<img class="diagrama" data-img="mockup-inventario" src="Diagrama/mockup-inventario.png" alt="Mockup del inventario actual">
 <p>Permite buscar productos y ver de un vistazo su stock, su mínimo y su estado; los productos con bajo stock se resaltan. Desde aquí se accede a registrar entradas y salidas.</p>
 
 <h3>Pantalla: registrar salida (CU-07)</h3>
-<img class="diagrama" src="Diagrama/mockup-registrar-salida.png" alt="Mockup de registrar salida" style="max-width:100%">
+<img class="diagrama" data-img="mockup-registrar-salida" src="Diagrama/mockup-registrar-salida.png" alt="Mockup de registrar salida" style="max-width:100%">
 <p>Registra una salida en pocos pasos y muestra el stock actual y el mínimo para evitar errores. El motivo es obligatorio.</p>
 
 <h3>Pantalla: productos con bajo stock (CU-08)</h3>
-<img class="diagrama" src="Diagrama/mockup-bajo-stock.png" alt="Mockup de productos con bajo stock" style="max-width:100%">
+<img class="diagrama" data-img="mockup-bajo-stock" src="Diagrama/mockup-bajo-stock.png" alt="Mockup de productos con bajo stock" style="max-width:100%">
 <p>Muestra qué productos hay que reponer y cuánto falta para llegar al mínimo, y permite pasar directamente a registrar una entrada.</p>
 </section>
 
@@ -609,6 +609,15 @@ var el=document.getElementById(h),p=el&&el.closest('.vista');
 if(p){mostrar(p.id.slice(2));el.scrollIntoView()}else{mostrar('inicio')}}
 document.documentElement.classList.add('js');
 window.addEventListener('hashchange',ruta);ruta();
+})();
+</script>
+<script>
+(function(){
+var C=['Diagrama','diagrama','Diagramas','diagramas'],E=['.png','.png.jpeg','.jpeg','.jpg'];
+document.querySelectorAll('img[data-img]').forEach(function(im){
+var l=[];C.forEach(function(c){E.forEach(function(e){l.push(c+'/'+im.getAttribute('data-img')+e)})});
+var i=0;im.onerror=function(){i++;if(i<l.length){im.src=l[i]}};im.src=l[0];
+});
 })();
 </script>
 </body>
