@@ -79,7 +79,7 @@ layout: default
 
 ## 5. Diagramas de comportamiento
 
-**Diagrama de secuencia / actividad — [Nombre del flujo principal]:**
+**Diagrama de secuencia / actividad — [ Registrar salidaCU-07]:**
 
 `[Insertar imagen: diagramas/secuencia-flujo-principal.png]`
 
