@@ -334,7 +334,7 @@ nav a.activo{text-decoration:underline}
 </div>
 
 <h3>2.1 Diagrama de casos de uso</h3>
-<img class="diagrama" src="diagramas/casos-de-uso.png" alt="Diagrama de casos de uso">
+<img class="diagrama" src="Diagramas/casos-de-uso.png" alt="Diagrama de casos de uso">
 
 <table>
 <thead><tr><th>Caso de uso</th><th>Administrador</th><th>Encargado</th></tr></thead>
@@ -406,7 +406,7 @@ nav a.activo{text-decoration:underline}
 <section id="dominio">
 <span class="numero">03</span>
 <h2>Modelo de dominio</h2>
-<img class="diagrama" src="diagramas/modelo-dominio.png" alt="Diagrama de clases conceptual" style="max-width:480px">
+<img class="diagrama" src="Diagramas/modelo-dominio.png" alt="Diagrama de clases conceptual" style="max-width:480px">
 <p>El <strong>Producto</strong> es el centro del dominio: tiene una cantidad disponible (stock) y un stock mínimo. Cada cambio en esa cantidad se origina en un <strong>Movimiento</strong>, que puede ser una <strong>Entrada</strong> (reposición) o una <strong>Salida</strong> (con su motivo). Cada movimiento lo registra un <strong>Usuario</strong>, cuyo <strong>Rol</strong> define qué puede hacer. Los productos se agrupan en <strong>Categorías</strong>. Los términos coinciden con el glosario de la Conceptualización.</p>
 </section>
 
@@ -414,7 +414,7 @@ nav a.activo{text-decoration:underline}
 <span class="numero">04</span>
 <h2>Diagramas de comportamiento</h2>
 <h3>Diagrama de secuencia: registrar salida (CU-07)</h3>
-<img class="diagrama" src="diagramas/secuencia-registrar-salida.png" alt="Diagrama de secuencia de registrar salida" style="max-width:640px">
+<img class="diagrama" src="Diagramas/secuencia-registrar-salida.png" alt="Diagrama de secuencia de registrar salida" style="max-width:640px">
 <p>El sistema valida la cantidad contra el stock antes de guardar, y el movimiento y la actualización del stock se guardan juntos. Si el stock queda por debajo del mínimo, se muestra una alerta.</p>
 </section>
 
@@ -424,19 +424,19 @@ nav a.activo{text-decoration:underline}
 <div class="destacado">Prototipos de las pantallas principales del sistema (nombre provisional: StockMini). Los de alta fidelidad en Figma se presentarán en la Entrega 3.</div>
 
 <h3>Pantalla: inicio de sesión (CU-01)</h3>
-<img class="diagrama" src="diagramas/mockup-login.png" alt="Mockup de inicio de sesión" style="max-width:100%">
+<img class="diagrama" src="Diagramas/mockup-login.png" alt="Mockup de inicio de sesión" style="max-width:100%">
 <p>El usuario ingresa su nombre de usuario y contraseña; el sistema muestra el menú según su rol.</p>
 
 <h3>Pantalla: inventario actual (CU-05 y CU-09)</h3>
-<img class="diagrama" src="diagramas/mockup-inventario.png" alt="Mockup del inventario actual">
+<img class="diagrama" src="Diagramas/mockup-inventario.png" alt="Mockup del inventario actual">
 <p>Permite buscar productos y ver de un vistazo su stock, su mínimo y su estado; los productos con bajo stock se resaltan. Desde aquí se accede a registrar entradas y salidas.</p>
 
 <h3>Pantalla: registrar salida (CU-07)</h3>
-<img class="diagrama" src="diagramas/mockup-registrar-salida.png" alt="Mockup de registrar salida" style="max-width:100%">
+<img class="diagrama" src="Diagramas/mockup-registrar-salida.png" alt="Mockup de registrar salida" style="max-width:100%">
 <p>Registra una salida en pocos pasos y muestra el stock actual y el mínimo para evitar errores. El motivo es obligatorio.</p>
 
 <h3>Pantalla: productos con bajo stock (CU-08)</h3>
-<img class="diagrama" src="diagramas/mockup-bajo-stock.png" alt="Mockup de productos con bajo stock" style="max-width:100%">
+<img class="diagrama" src="Diagramas/mockup-bajo-stock.png" alt="Mockup de productos con bajo stock" style="max-width:100%">
 <p>Muestra qué productos hay que reponer y cuánto falta para llegar al mínimo, y permite pasar directamente a registrar una entrada.</p>
 </section>
 
@@ -496,14 +496,14 @@ nav a.activo{text-decoration:underline}
 <h2>Arquitectura del sistema</h2>
 <p><strong>Estilo arquitectónico elegido:</strong> [ej. Arquitectura en capas / Cliente-servidor / Microservicios]</p>
 <h3>Diagrama de arquitectura</h3>
-<div class="placeholder">[Insertar imagen: diagramas/arquitectura.png]</div>
+<div class="placeholder">[Insertar imagen: Diagramas/arquitectura.png]</div>
 <p><strong>Justificación:</strong> [por qué se eligió este estilo para este proyecto]</p>
 </section>
 
 <section id="clases">
 <span class="numero">02</span>
 <h2>Diagrama de clases de diseño</h2>
-<div class="placeholder">[Insertar imagen: diagramas/clases-diseno.png]</div>
+<div class="placeholder">[Insertar imagen: Diagramas/clases-diseno.png]</div>
 <p>[Breve descripción de las clases principales, sus responsabilidades y relaciones. Indicar patrones de diseño aplicados dentro de este modelo, si corresponde.]</p>
 </section>
 
@@ -511,7 +511,7 @@ nav a.activo{text-decoration:underline}
 <span class="numero">03</span>
 <h2>Diseño de base de datos</h2>
 <h3>Modelo entidad-relación / diagrama físico</h3>
-<div class="placeholder">[Insertar imagen: diagramas/modelo-er.png]</div>
+<div class="placeholder">[Insertar imagen: Diagramas/modelo-er.png]</div>
 <h3>Diccionario de datos (tablas principales)</h3>
 <div class="cliente"><h3>Tabla: [nombre_tabla]</h3>
 <table>
@@ -531,7 +531,7 @@ nav a.activo{text-decoration:underline}
 <span class="numero">04</span>
 <h2>Diagramas de secuencia de diseño</h2>
 <h3>[Nombre del flujo] — versión técnica</h3>
-<div class="placeholder">[Insertar imagen: diagramas/secuencia-diseno-flujo1.png]</div>
+<div class="placeholder">[Insertar imagen: Diagramas/secuencia-diseno-flujo1.png]</div>
 <p>[Detalle de clases, componentes y mensajes intercambiados.]</p>
 </section>
 
@@ -539,7 +539,7 @@ nav a.activo{text-decoration:underline}
 <span class="numero">05</span>
 <h2>Diseño de interfaz de usuario</h2>
 <h3>[Nombre de la pantalla] — alta fidelidad</h3>
-<div class="placeholder">[Insertar imagen: diagramas/ui-pantalla1.png]</div>
+<div class="placeholder">[Insertar imagen: Diagramas/ui-pantalla1.png]</div>
 <p><strong>Prototipo navegable (si aplica):</strong> [enlace a Figma / similar]</p>
 </section>
 
@@ -558,7 +558,7 @@ nav a.activo{text-decoration:underline}
 <section id="despliegue">
 <span class="numero">07</span>
 <h2>Diagrama de despliegue</h2>
-<div class="placeholder">[Insertar imagen: diagramas/despliegue.png]</div>
+<div class="placeholder">[Insertar imagen: Diagramas/despliegue.png]</div>
 <p>[Descripción de la infraestructura: servidores, servicios, dispositivos cliente y cómo se conectan.]</p>
 </section>
 
