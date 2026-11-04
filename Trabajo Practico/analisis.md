@@ -91,8 +91,16 @@ layout: default
 
 | ID | Regla |
 |---|---|
-| RN-01 | [ej. Un usuario no puede registrar dos reservas superpuestas] |
-| RN-02 | [Regla 2] |
+| RN-01 | El código de un producto es único. |
+| RN-02 | La cantidad de un movimiento debe ser mayor que cero. |
+| RN-03 | Una salida no puede superar la cantidad disponible: el stock nunca puede quedar negativo. |
+| RN-04 | Toda salida debe tener un motivo (venta, merma o vencimiento, ajuste). |
+| RN-05 | Un producto está en bajo stock cuando su cantidad disponible es menor que su stock mínimo. |
+| RN-06 | Un producto desactivado no admite nuevos movimientos, pero conserva su historial. |
+| RN-07 | Los movimientos no se modifican ni se eliminan; los errores se corrigen con un movimiento de ajuste. |
+| RN-08 | Cada movimiento registra la fecha, el usuario y el producto afectado. |
+| RN-09 | Solo el Administrador puede registrar, modificar o desactivar productos y gestionar usuarios. |
+| RN-10 | El Encargado puede consultar el inventario y registrar entradas y salidas. |
 
 ---
 
@@ -100,8 +108,18 @@ layout: default
 
 | Requisito | Caso(s) de uso relacionado(s) |
 |---|---|
-| RF-01 | CU-01 |
-| RF-02 | CU-02, CU-03 |
+| RF-01 | CU-02 | RN-01, RN-09 |
+| RF-02 | CU-03 | RN-09 |
+| RF-03 | CU-04 | RN-06, RN-09 |
+| RF-04 | CU-05 | — |
+| RF-05 | CU-06 | RN-02, RN-06, RN-08 |
+| RF-06 | CU-07 | RN-02, RN-03, RN-04, RN-06, RN-08 |
+| RF-07 | CU-06, CU-07 | RN-03, RN-07 |
+| RF-08 | CU-08 | RN-05 |
+| RF-09 | CU-09 | RN-05 |
+| RF-10 | CU-10 | RN-07, RN-08 |
+| RF-11 | CU-01 | RN-09, RN-10 |
+| RF-12 | CU-11 | RN-09 |
 | RF-03 | CU-01 |
 
 ---
